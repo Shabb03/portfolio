@@ -33,17 +33,17 @@ const work = [
     description: ""},
     */
 
-    {year: "2021-2022", 
+    {year: "12/2021-08/2022", 
     title: "Dublin Airport - Burger King", 
-    description: "Working as a team member with roles including:<br>Taking orders at the till<br>Serving customers at the checkpoint<p>Preparing sandwhiches, sides and beverages<br>Cleaning the dining area"},
+    description: "Worked as a team member with roles including:<br>Taking orders at the till<br>Serving customers at the checkpoint<p>Preparing sandwhiches, sides and beverages<br>Cleaning the dining area"},
 
-    {year: "2022-2023", 
+    {year: "10/2022-01/2023", 
     title: "Security Guard", 
     description: "Worked as a security guard for Integrity Security, roles include:<br>Authorizing entry of select individuals<br>Patrolling inside and outside areas<br>Documenting suspicious activities"},
 
-    {year: "2023", 
+    {year: "03/2023-08/2023", 
     title: "Software Engineer Intern", 
-    description: "Currently Ongoing"},
+    description: "Worked as Software Engineer Business Intelligence Intern<br>Ensured data integrity and accuracy<br>Automated tasks using SQL, PowerShell, and SSIS<br>Completed data fixes<br>Communicating and problem-solving with other teams"},
 ];
 
 const skills = [
@@ -54,47 +54,43 @@ const skills = [
     */
 
     {name: "Python", 
-    percent: "90", 
+    percent: "85", 
     icon: `<i class="fa-brands fa-python"></i>`},
 
     {name: "Java", 
     percent: "70", 
     icon: `<i class="fa-brands fa-java"></i>`},
 
-    {name: "HTML, CSS, JS", 
-    percent: "90", 
-    icon: `<i class="fa-brands fa-js"></i>`},
-
     {name: "Django", 
     percent: "85", 
     icon: `<i class="fa-solid fa-d"></i>`},
+
+    {name: "SQL Server", 
+    percent: "90", 
+    icon: `<i class="fa-solid fa-database"></i>`},
+
+    {name: "React.js", 
+    percent: "80", 
+    icon: `<i class="fa-brands fa-react"></i>`},
 
     {name: "Node JS", 
     percent: "65", 
     icon: `<i class="fa-brands fa-node"></i>`},
 
-    {name: "Bulma CSS", 
-    percent: "85", 
-    icon: `<i class="fa-brands fa-css3"></i>`},
+    {name: "TypeScript", 
+    percent: "70", 
+    icon: `<i class="fa-brands fa-js"></i>`},
 
     {name: "C", 
     percent: "80", 
     icon: `<i class="fa-solid fa-c"></i>`},
 
-    {name: "MySQL", 
-    percent: "80", 
-    icon: `<i class="fa-solid fa-database"></i>`},
-
     {name: "AI", 
     percent: "30", 
     icon: `<i class="fa-solid fa-brain"></i>`},
 
-    {name: "Google Drive", 
-    percent: "80", 
-    icon: `<i class="fa-brands fa-google-drive"></i>`},
-
     {name: "Microsoft Suite", 
-    percent: "80", 
+    percent: "90", 
     icon: `<i class="fa-brands fa-microsoft"></i>`},
 
     {name: "Graphic Design", 
