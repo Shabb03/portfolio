@@ -20,8 +20,8 @@
     --orange: #ff5f1f;
     --green: #00ff00;
 
-    --primary: #00ff00;
-    --primary-shade: #00dd00;
+    --primary: #32CD32;
+    --primary-shade: #239023;
     --primary-active: #00bb00;
     --primary-text: #000;
 
@@ -38,7 +38,7 @@ body.dark
     --purple: #9d00ff;
     --green: #39FF14;
 
-    --primary: #00ff00;
+    --primary: #32CD32;
     --primary-text: #000;
 }
 html {
@@ -4808,6 +4808,7 @@ fieldset[disabled] .select select:hover {
   display: block;
   position: relative;
   max-width: 100%;
+  background-color: var(--background);
 }
 
 .card-image:first-child img {
@@ -4821,7 +4822,8 @@ fieldset[disabled] .select select:hover {
 }
 
 .card-content {
-  background-color: transparent;
+  background-color: var(--background);
+  color: var(--text);
   padding: 1.5rem;
 }
 
