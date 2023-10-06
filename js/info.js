@@ -6,23 +6,19 @@ const education = [
     */
 
     {year: "2020-2024", 
-    title: "Bachelors in Computer Science", 
-    description: "Currently studying to finish my degree in 2024 with internship experience. I hope to make a change in improving human lifestyle and increase efficiency"},
+    title: "Bachelors in Computer Science --- Dublin City University", 
+    description: "Currently studying to finish my degree in 2024. I hope to become a part of the rapidly growing industry of technology"},
 
     {year: "2022", 
-    title: "Static Security", 
-    description: "Completed with David Kelly, Mackin Consultancy Certification, Training for one week plus home study element (30 hours plus)"},
+    title: "Static Security --- Mackin Consultancy", 
+    description: "Completed with David Kelly, Mackin Consultancy Certification"},
 
     {year: "2022", 
-    title: "Safepass", 
+    title: "Safepass & Manual Handling --- Global Training Solutions", 
     description: "Certified in working at a construction site."},
 
-    {year: "2022", 
-    title: "Manual Handling", 
-    description: "Certified in lifting heavy load."},
-
     {year: "2015-2020", 
-    title: "Leaving Certificate: 525 points", 
+    title: "Leaving Certificate: 521 points --- Ardgillan Community College", 
     description: "Design and Communication Graphics: H1<br>Engineering: H2<br>Applied Maths: H3<br>Maths: H3<br>Physics: H3<br>English: H3<br>Irish: H3"},
 ];
 
@@ -33,17 +29,17 @@ const work = [
     description: ""},
     */
 
-    {year: "12/2021-08/2022", 
-    title: "Dublin Airport - Burger King", 
-    description: "Worked as a team member with roles including:<br>Taking orders at the till<br>Serving customers at the checkpoint<p>Preparing sandwhiches, sides and beverages<br>Cleaning the dining area"},
+    {year: "03/2023-08/2023", 
+    title: "Software Engineer Business Intelligence Intern --- Irish Life", 
+    description: "Ensured data integrity and accuracy<br>Completed data fixes for business teams or failure of automation process<br>Automated tasks using SQL, PowerShell, and SSIS<br>Document Jobs and processes throughout<br>Communicating and problem-solving with other teams"},
 
     {year: "10/2022-01/2023", 
-    title: "Security Guard", 
-    description: "Worked as a security guard for Integrity Security, roles include:<br>Authorizing entry of select individuals<br>Patrolling inside and outside areas<br>Documenting suspicious activities"},
-
-    {year: "03/2023-08/2023", 
-    title: "Software Engineer Intern", 
-    description: "Worked as Software Engineer Business Intelligence Intern<br>Ensured data integrity and accuracy<br>Automated tasks using SQL, PowerShell, and SSIS<br>Completed data fixes<br>Communicating and problem-solving with other teams"},
+    title: "Security Guard --- Integrity Security", 
+    description: "Authorized entry of select individuals<br>Documenting activities<br>Patrolling inside and outside the designated building"},
+    
+    {year: "12/2021-08/2022", 
+    title: "Team Member --- SSP", 
+    description: "Worked in all aspects of the quick paced restaurant<br>Primary focus on customer service<br>Trained new members as well as helped them to adjust to the fast and busy environment"},
 ];
 
 const skills = [
@@ -58,7 +54,7 @@ const skills = [
     icon: `<i class="fa-brands fa-python"></i>`},
 
     {name: "Java", 
-    percent: "70", 
+    percent: "55", 
     icon: `<i class="fa-brands fa-java"></i>`},
 
     {name: "Django", 
@@ -70,24 +66,20 @@ const skills = [
     icon: `<i class="fa-solid fa-database"></i>`},
 
     {name: "React.js", 
-    percent: "80", 
+    percent: "75", 
     icon: `<i class="fa-brands fa-react"></i>`},
 
     {name: "Node JS", 
     percent: "65", 
     icon: `<i class="fa-brands fa-node"></i>`},
 
-    {name: "TypeScript", 
-    percent: "70", 
-    icon: `<i class="fa-brands fa-js"></i>`},
-
     {name: "C", 
     percent: "80", 
     icon: `<i class="fa-solid fa-c"></i>`},
 
-    {name: "AI", 
-    percent: "30", 
-    icon: `<i class="fa-solid fa-brain"></i>`},
+    {name: "R", 
+    percent: "65", 
+    icon: `<i class="fa-solid fa-r"></i>`},
 
     {name: "Microsoft Suite", 
     percent: "90", 
@@ -96,6 +88,14 @@ const skills = [
     {name: "Graphic Design", 
     percent: "70", 
     icon: `<i class="fa-solid fa-palette"></i>`},
+
+    {name: "Linux", 
+    percent: "70", 
+    icon: `<i class="fa-brands fa-linux"></i>`},
+
+    {name: "Agile Scrum", 
+    percent: "95", 
+    icon: `<i class="fa-solid fa-code"></i>`},
 ];
 
 const projects = [
@@ -168,6 +168,9 @@ const hobbies = [
 
     {name: "Coding", 
     image: "coding.png"},
+
+    {name: "Travelling", 
+    image: "plane.png"},
 ];
 
 
