@@ -7,19 +7,11 @@ const education = [
 
     {year: "2020-2024", 
     title: "Bachelors in Computer Science --- Dublin City University", 
-    description: "Currently studying to finish my degree in 2024. I hope to become a part of the rapidly growing industry of technology"},
-
-    {year: "2022", 
-    title: "Static Security --- Mackin Consultancy", 
-    description: "Completed with David Kelly, Mackin Consultancy Certification"},
-
-    {year: "2022", 
-    title: "Safepass & Manual Handling --- Global Training Solutions", 
-    description: "Certified in working at a construction site."},
+    description: "Expected Graduation in May 2024 with an expected 2.1"},
 
     {year: "2015-2020", 
     title: "Leaving Certificate: 521 points --- Ardgillan Community College", 
-    description: "Design and Communication Graphics: H1<br>Engineering: H2<br>Applied Maths: H3<br>Maths: H3<br>Physics: H3<br>English: H3<br>Irish: H3"},
+    description: "Design and Communication Graphics: H1<br>Engineering: H2<br>Applied Maths: H3<br>Maths: H3<br>Physics: H3"},
 ];
 
 const work = [
@@ -31,15 +23,15 @@ const work = [
 
     {year: "03/2023-08/2023", 
     title: "Software Engineer Business Intelligence Intern --- Irish Life", 
-    description: "Ensured data integrity and accuracy<br>Completed data fixes for business teams or failure of automation process<br>Automated tasks using SQL, PowerShell, and SSIS<br>Document Jobs and processes throughout<br>Communicating and problem-solving with other teams"},
+    description: "Resolved critical issues by identifying and debugging failures then refactored the code for higher maintainability<br>Collaborated with team members to produce automated tasks and processes successfully within hours<br>Effectively communicated complex technical concepts to the business team during the development of automation processes<br>Ensured data integrity and accuracy"},
 
     {year: "10/2022-01/2023", 
     title: "Security Guard --- Integrity Security", 
-    description: "Authorized entry of select individuals<br>Documenting activities<br>Patrolling inside and outside the designated building"},
+    description: "Authorized entry of select individuals<br>Documenting activities<br>Patrolling of the designated building<br>Communicated effectively with security team members"},
     
     {year: "12/2021-08/2022", 
     title: "Team Member --- SSP", 
-    description: "Worked in all aspects of the quick paced restaurant<br>Primary focus on customer service<br>Trained new members as well as helped them to adjust to the fast and busy environment"},
+    description: "Worked in all aspects of the fast-paced restaurant with team members to quickly produce orders<br>Trained new members as well as assisted them to adjust to the fast and busy environment"},
 ];
 
 const skills = [
@@ -49,6 +41,7 @@ const skills = [
     icon: ``},
     */
 
+    /*
     {name: "Python", 
     percent: "85", 
     icon: `<i class="fa-brands fa-python"></i>`},
@@ -96,6 +89,7 @@ const skills = [
     {name: "Agile Scrum", 
     percent: "95", 
     icon: `<i class="fa-solid fa-code"></i>`},
+    */
 ];
 
 const projects = [
@@ -105,41 +99,29 @@ const projects = [
     link: ""},
     */
 
+    {name: "C Shell", 
+    image: "c_shell.png",
+    link: "https://github.com/Shabb03/shell"},
+
     {name: "Student Project Management System", 
     image: "studentproject.png",
     link: "https://github.com/Shabb03/Student-Project-Management-System"},
-
-    {name: "Sorting Algorithm Visualiser", 
-    image: "sortingvisualiser.png",
-    link: "https://github.com/Shabb03/Python-Projects/blob/main/sorting_visualiser.py"},
 
     {name: "Gym Shop", 
     image: "gymshop.png",
     link: "https://github.com/Shabb03/Gym-Shop"},
 
+    {name: "Sorting Algorithm Visualiser", 
+    image: "sortingvisualiser.png",
+    link: "https://github.com/Shabb03/Python-Projects/blob/main/sorting_visualiser.py"},
+
     {name: "Landing Page", 
     image: "landing.png",
     link: "https://shabb03.github.io/headphones/"},
 
-    {name: "Tic Tac Toe", 
-    image: "tictactoe.png",
-    link: "https://github.com/Shabb03/Python-Projects/blob/main/tic_tac_toe.py"},
-
     {name: "Typing Speed Test", 
     image: "typing.png",
     link: "https://github.com/Shabb03/Python-Projects/blob/main/typing.py"},
-
-    {name: "C Shell", 
-    image: "c_shell.png",
-    link: "https://github.com/Shabb03/shell"},
-
-    {name: "Colorful Rain", 
-    image: "colorfulrain.png",
-    link: "https://shabb03.github.io/rain/"},
-
-    {name: "Notes Page", 
-    image: "notes.png",
-    link: "https://shabb03.github.io/notes/"},
 ];
 
 const hobbies = [
@@ -148,11 +130,11 @@ const hobbies = [
     image: ""},
     */
 
+    {name: "Coding", 
+    image: "coding.png"},
+
     {name: "Basketball", 
     image: "basketball.png"},
-
-    {name: "Gym", 
-    image: "gym.png"},
 
     {name: "Reading", 
     image: "reading.png"},
@@ -165,9 +147,6 @@ const hobbies = [
 
     {name: "Investing", 
     image: "investing.png"},
-
-    {name: "Coding", 
-    image: "coding.png"},
 
     {name: "Travelling", 
     image: "plane.png"},
