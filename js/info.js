@@ -185,6 +185,7 @@ function addExperience() {
     section.innerHTML += htmlString;
 }
 
+/*
 function addSkills() {
     let section = document.getElementById("skills-section");
     let htmlString = "";
@@ -202,6 +203,7 @@ function addSkills() {
     })
     section.innerHTML += htmlString;
 }
+*/
 
 function addProjects() {
     let section = document.getElementById("projects-section");
@@ -285,7 +287,7 @@ function showSlides(n) {
 
 addEducation();
 addExperience();
-addSkills();
+//addSkills();
 addProjects();
 addHobbies();
 
