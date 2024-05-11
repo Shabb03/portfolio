@@ -5,13 +5,25 @@ const education = [
     description: ""},
     */
 
-    {year: "2020-2024", 
-    title: "Bachelors in Computer Science --- Dublin City University", 
-    description: "Expected Graduation in May 2024 with an expected 2.1"},
+    {
+        year: "2020-2024",
+        title: "Bachelors in Computer Science --- Dublin City University",
+        description: `Expected Graduation in May 2024 with an expected 2.1<br>Final Year Project: Votegrity - Blockchain Voting System
+                    <br>Relevant modules:
+                    <br>- DevOps
+                    <br>- Software Engineering Process, Principles and Methods
+                    <br>- Software Testing
+                    <br>- Systems Analysis
+                    <br>- Linear Algebra
+                    <br>- Data Warehousing
+                    <br>- Full-Stack development
+    `},
 
-    {year: "2015-2020", 
-    title: "Leaving Certificate: 521 points --- Ardgillan Community College", 
-    description: "Design and Communication Graphics: H1<br>Engineering: H2<br>Applied Maths: H3<br>Maths: H3<br>Physics: H3"},
+    {
+        year: "2015-2020",
+        title: "Leaving Certificate: 521 points --- Ardgillan Community College",
+        description: "Design and Communication Graphics: H1<br>Engineering: H2<br>Applied Maths: H3<br>Maths: H3<br>Physics: H3"
+    },
 ];
 
 const work = [
@@ -21,17 +33,23 @@ const work = [
     description: ""},
     */
 
-    {year: "03/2023-08/2023", 
-    title: "Software Engineer Business Intelligence Intern --- Irish Life", 
-    description: "Resolved critical issues by identifying and debugging failures then refactored the code for higher maintainability<br>Collaborated with team members to produce automated tasks and processes successfully within hours<br>Effectively communicated complex technical concepts to the business team during the development of automation processes<br>Ensured data integrity and accuracy"},
+    {
+        year: "03/2023-08/2023",
+        title: "Software Engineer Business Intelligence Intern --- Irish Life",
+        description: "Resolved critical issues by identifying and debugging failures then refactored the code for higher maintainability<br>Collaborated with team members to produce automated tasks and processes successfully within hours<br>Effectively communicated complex technical concepts to the business team during the development of automation processes<br>Ensured data integrity and accuracy<br>Completed weekly data fixes"
+    },
 
-    {year: "10/2022-01/2023", 
-    title: "Security Guard --- Integrity Security", 
-    description: "Authorized entry of select individuals<br>Documenting activities<br>Patrolling of the designated building<br>Communicated effectively with security team members"},
-    
-    {year: "12/2021-08/2022", 
-    title: "Team Member --- SSP", 
-    description: "Worked in all aspects of the fast-paced restaurant with team members to quickly produce orders<br>Trained new members as well as assisted them to adjust to the fast and busy environment"},
+    {
+        year: "10/2022-01/2023",
+        title: "Security Guard --- Integrity Security",
+        description: "Authorized entry of select individuals<br>Documenting activities<br>Patrolling of the designated building<br>Communicated effectively with security team members"
+    },
+
+    {
+        year: "12/2021-08/2022",
+        title: "Team Member --- SSP",
+        description: "Worked in all aspects of the fast-paced restaurant with team members to quickly produce orders<br>Trained new members as well as assisted them to adjust to the fast and busy environment"
+    },
 ];
 
 const skills = [
@@ -41,55 +59,77 @@ const skills = [
     icon: ``},
     */
 
-    /*
-    {name: "Python", 
-    percent: "85", 
-    icon: `<i class="fa-brands fa-python"></i>`},
+    {
+        name: "Python",
+        percent: "85",
+        icon: `<i class="fa-brands fa-python"></i>`
+    },
 
-    {name: "Java", 
-    percent: "55", 
-    icon: `<i class="fa-brands fa-java"></i>`},
+    {
+        name: "Java",
+        percent: "55",
+        icon: `<i class="fa-brands fa-java"></i>`
+    },
 
-    {name: "Django", 
-    percent: "85", 
-    icon: `<i class="fa-solid fa-d"></i>`},
+    {
+        name: "Django",
+        percent: "85",
+        icon: `<i class="fa-solid fa-d"></i>`
+    },
 
-    {name: "SQL Server", 
-    percent: "90", 
-    icon: `<i class="fa-solid fa-database"></i>`},
+    {
+        name: "SQL Server",
+        percent: "90",
+        icon: `<i class="fa-solid fa-database"></i>`
+    },
 
-    {name: "React.js", 
-    percent: "75", 
-    icon: `<i class="fa-brands fa-react"></i>`},
+    {
+        name: "React.js",
+        percent: "75",
+        icon: `<i class="fa-brands fa-react"></i>`
+    },
 
-    {name: "Node JS", 
-    percent: "65", 
-    icon: `<i class="fa-brands fa-node"></i>`},
+    {
+        name: "Node JS",
+        percent: "65",
+        icon: `<i class="fa-brands fa-node"></i>`
+    },
 
-    {name: "C", 
-    percent: "80", 
-    icon: `<i class="fa-solid fa-c"></i>`},
+    {
+        name: "C",
+        percent: "80",
+        icon: `<i class="fa-solid fa-c"></i>`
+    },
 
-    {name: "R", 
-    percent: "65", 
-    icon: `<i class="fa-solid fa-r"></i>`},
+    {
+        name: "R",
+        percent: "65",
+        icon: `<i class="fa-solid fa-r"></i>`
+    },
 
-    {name: "Microsoft Suite", 
-    percent: "90", 
-    icon: `<i class="fa-brands fa-microsoft"></i>`},
+    {
+        name: "Microsoft Suite",
+        percent: "90",
+        icon: `<i class="fa-brands fa-microsoft"></i>`
+    },
 
-    {name: "Graphic Design", 
-    percent: "70", 
-    icon: `<i class="fa-solid fa-palette"></i>`},
+    {
+        name: "Graphic Design",
+        percent: "70",
+        icon: `<i class="fa-solid fa-palette"></i>`
+    },
 
-    {name: "Linux", 
-    percent: "70", 
-    icon: `<i class="fa-brands fa-linux"></i>`},
+    {
+        name: "Linux",
+        percent: "70",
+        icon: `<i class="fa-brands fa-linux"></i>`
+    },
 
-    {name: "Agile Scrum", 
-    percent: "95", 
-    icon: `<i class="fa-solid fa-code"></i>`},
-    */
+    {
+        name: "Agile Scrum",
+        percent: "95",
+        icon: `<i class="fa-solid fa-code"></i>`
+    },
 ];
 
 const projects = [
@@ -99,29 +139,47 @@ const projects = [
     link: ""},
     */
 
-    {name: "C Shell", 
-    image: "c_shell.png",
-    link: "https://github.com/Shabb03/shell"},
+    {
+        name: "Votegrity - Blockchain Voting System",
+        image: "votegrity.png",
+        link: "https://github.com/Shabb03/Votegrity"
+    },
 
-    {name: "Student Project Management System", 
-    image: "studentproject.png",
-    link: "https://github.com/Shabb03/Student-Project-Management-System"},
+    {
+        name: "C Shell",
+        image: "c_shell.png",
+        link: "https://github.com/Shabb03/shell"
+    },
 
-    {name: "Gym Shop", 
-    image: "gymshop.png",
-    link: "https://github.com/Shabb03/Gym-Shop"},
+    {
+        name: "Student Project Management System",
+        image: "studentproject.png",
+        link: "https://github.com/Shabb03/Student-Project-Management-System"
+    },
 
-    {name: "Sorting Algorithm Visualiser", 
-    image: "sortingvisualiser.png",
-    link: "https://github.com/Shabb03/Python-Projects/blob/main/sorting_visualiser.py"},
+    {
+        name: "Gym Shop",
+        image: "gymshop.png",
+        link: "https://github.com/Shabb03/Gym-Shop"
+    },
 
-    {name: "Landing Page", 
-    image: "landing.png",
-    link: "https://shabb03.github.io/headphones/"},
+    {
+        name: "Sorting Algorithm Visualiser",
+        image: "sortingvisualiser.png",
+        link: "https://github.com/Shabb03/Python-Projects/blob/main/sorting_visualiser.py"
+    },
 
-    {name: "Typing Speed Test", 
-    image: "typing.png",
-    link: "https://github.com/Shabb03/Python-Projects/blob/main/typing.py"},
+    {
+        name: "Landing Page",
+        image: "landing.png",
+        link: "https://shabb03.github.io/headphones/"
+    },
+
+    {
+        name: "Typing Speed Test",
+        image: "typing.png",
+        link: "https://github.com/Shabb03/Python-Projects/blob/main/typing.py"
+    },
 ];
 
 const hobbies = [
@@ -130,33 +188,47 @@ const hobbies = [
     image: ""},
     */
 
-    {name: "Coding", 
-    image: "coding.png"},
+    {
+        name: "Coding",
+        image: "coding.png"
+    },
 
-    {name: "Basketball", 
-    image: "basketball.png"},
+    {
+        name: "Basketball",
+        image: "basketball.png"
+    },
 
-    {name: "Reading", 
-    image: "reading.png"},
+    {
+        name: "Reading",
+        image: "reading.png"
+    },
 
-    {name: "Puzzles", 
-    image: "puzzles.png"},
+    {
+        name: "Puzzles",
+        image: "puzzles.png"
+    },
 
-    {name: "Graphic Designing", 
-    image: "graphic.png"},
+    {
+        name: "Graphic Designing",
+        image: "graphic.png"
+    },
 
-    {name: "Investing", 
-    image: "investing.png"},
+    {
+        name: "Investing",
+        image: "investing.png"
+    },
 
-    {name: "Travelling", 
-    image: "plane.png"},
+    {
+        name: "Travelling",
+        image: "plane.png"
+    },
 ];
 
 
 function addEducation() {
     let section = document.getElementById("education-timeline");
     let htmlString = "";
-    education.forEach(item=>{
+    education.forEach(item => {
         htmlString += `<div class="timeline-item">
                             <div class="circle-dot"></div>
                                 <h3 class="timeline-date">
@@ -172,7 +244,7 @@ function addEducation() {
 function addExperience() {
     let section = document.getElementById("experience-timeline");
     let htmlString = "";
-    work.forEach(item=>{
+    work.forEach(item => {
         htmlString += `<div class="timeline-item">
                             <div class="circle-dot"></div>
                                 <h3 class="timeline-date">
@@ -209,7 +281,7 @@ function addProjects() {
     let section = document.getElementById("projects-section");
     let htmlString = "";
     let i = 0;
-    projects.forEach(item=>{
+    projects.forEach(item => {
         if (i == 0) {
             htmlString += `<div class="columns">`;
         }
@@ -241,7 +313,7 @@ function addHobbies() {
     let htmlString2 = "";
     let len = hobbies.length;
     let i = 1;
-    hobbies.forEach(item=>{
+    hobbies.forEach(item => {
         htmlString += `<div class="mySlides fade">
                         <div class="numbertext">${i} / ${len}</div>
                         <img class="hobby-img" src="img/${item['image']}" style="width:100%">
@@ -257,11 +329,11 @@ function addHobbies() {
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-        
+
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
-        
+
 function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("mySlides");
@@ -269,20 +341,20 @@ function showSlides(n) {
 
     if (n > slides.length) {
         slideIndex = 1
-    }    
+    }
     if (n < 1) {
         slideIndex = slides.length
     }
 
     for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
+        slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
+
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
 }
 
 addEducation();
