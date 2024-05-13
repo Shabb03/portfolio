@@ -61,74 +61,142 @@ const skills = [
 
     {
         name: "Python",
-        percent: "85",
         icon: `<i class="fa-brands fa-python"></i>`
     },
 
     {
         name: "Java",
-        percent: "55",
         icon: `<i class="fa-brands fa-java"></i>`
     },
 
     {
-        name: "Django",
-        percent: "85",
-        icon: `<i class="fa-solid fa-d"></i>`
-    },
-
-    {
-        name: "SQL Server",
-        percent: "90",
+        name: "MySQL + SQL Server",
         icon: `<i class="fa-solid fa-database"></i>`
     },
 
     {
-        name: "React.js",
-        percent: "75",
-        icon: `<i class="fa-brands fa-react"></i>`
-    },
-
-    {
-        name: "Node JS",
-        percent: "65",
-        icon: `<i class="fa-brands fa-node"></i>`
-    },
-
-    {
-        name: "C",
-        percent: "80",
-        icon: `<i class="fa-solid fa-c"></i>`
-    },
-
-    {
-        name: "R",
-        percent: "65",
-        icon: `<i class="fa-solid fa-r"></i>`
-    },
-
-    {
-        name: "Microsoft Suite",
-        percent: "90",
-        icon: `<i class="fa-brands fa-microsoft"></i>`
-    },
-
-    {
-        name: "Graphic Design",
-        percent: "70",
-        icon: `<i class="fa-solid fa-palette"></i>`
-    },
-
-    {
         name: "Linux",
-        percent: "70",
         icon: `<i class="fa-brands fa-linux"></i>`
     },
 
     {
+        name: "C",
+        icon: `<i class="fa-solid fa-c"></i>`
+    },
+
+    {
+        name: "Solidity",
+        icon: `<i class="fa-brands fa-ethereum"></i>`
+    },
+
+    {
+        name: "Node.js",
+        icon: `<i class="fa-brands fa-node"></i>`
+    },
+
+    {
+        name: "Vue.js",
+        icon: `<i class="fa-brands fa-react"></i>`
+    },
+
+    {
+        name: "Django",
+        icon: `<i class="fa-solid fa-d"></i>`
+    },
+
+    {
+        name: "Jest",
+        icon: `<i class="fa-solid fa-magnifying-glass"></i>`
+    },
+
+    {
+        name: "AWS",
+        icon: `<i class="fa-brands fa-aws"></i>`
+    },
+
+    {
+        name: "Hardhat",
+        icon: `<i class="fa-solid fa-helmet-safety"></i>`
+    },
+
+    {
+        name: "Postman API",
+        icon: `<i class="fa-solid fa-arrow-right"></i>`
+    },
+
+    {
+        name: "Figma",
+        icon: `<i class="fa-brands fa-figma"></i>`
+    },
+
+    {
+        name: "UML",
+        icon: `<i class="fa-solid fa-pen"></i>`
+    },
+
+    {
         name: "Agile Scrum",
-        percent: "95",
         icon: `<i class="fa-solid fa-code"></i>`
+    },
+
+    {
+        name: "Design Principles",
+        icon: `<i class="fa-solid fa-file"></i>`
+    },
+
+    {
+        name: "Microsoft Suite",
+        icon: `<i class="fa-brands fa-microsoft"></i>`
+    },
+
+    {
+        name: "Automation Testing",
+        icon: `<i class="fa-brands fa-git-alt"></i>`
+    },
+
+    {
+        name: "Graphic Design",
+        icon: `<i class="fa-solid fa-palette"></i>`
+    },
+
+    {
+        name: "OOP",
+        icon: `<i class="fa-solid fa-object-group"></i>`
+    },
+
+    {
+        name: "Problem solving",
+        icon: ``
+    },
+
+    {
+        name: "Teamwork",
+        icon: ``
+    },
+
+    {
+        name: "Organisational",
+        icon: ``
+    },
+
+    {
+        name: "Time management",
+        icon: ``
+    },
+
+    {
+        name: "Interpersonal skills",
+        icon: ``
+    },
+
+    {
+        name: "Adaptability",
+        icon: ``
+    },
+
+    {
+        name: "Multi-tasking",
+        icon: ``
     },
 ];
 
@@ -146,15 +214,15 @@ const projects = [
     },
 
     {
-        name: "C Shell",
-        image: "c_shell.png",
-        link: "https://github.com/Shabb03/shell"
-    },
-
-    {
         name: "Student Project Management System",
         image: "studentproject.png",
         link: "https://github.com/Shabb03/Student-Project-Management-System"
+    },
+
+    {
+        name: "Decision Tree",
+        image: "decisiontree.png",
+        link: "https://github.com/Shabb03/Decision-Tree"
     },
 
     {
@@ -181,6 +249,37 @@ const projects = [
         link: "https://github.com/Shabb03/Python-Projects/blob/main/typing.py"
     },
 ];
+
+const accomplishments = [
+    /*
+    {name: "", 
+    image: ""},
+    */
+    {
+        name: "Final Year Expo",
+        image: "expo.png"
+    },
+    {
+        name: "Completed DCU’s bronze engage award",
+        image: "engage.png"
+    },
+    {
+        name: "Graphic designer in SpkEsy",
+        image: "spkesy.png"
+    },
+    {
+        name: "Top 10 at Ardgillan Community College",
+        image: "ardgillan.png"
+    },
+    {
+        name: "Volunteered for St Vincent De Paul",
+        image: "svp.png"
+    },
+    {
+        name: "Self-taught Applied Maths",
+        image: "appliedmaths.png"
+    },
+]
 
 const hobbies = [
     /*
@@ -257,8 +356,8 @@ function addExperience() {
     section.innerHTML += htmlString;
 }
 
-/*
 function addSkills() {
+    /*
     let section = document.getElementById("skills-section");
     let htmlString = "";
     skills.forEach(item=>{
@@ -274,8 +373,31 @@ function addSkills() {
                     </div>`;
     })
     section.innerHTML += htmlString;
+    */
+
+    let section = document.getElementById("skills-section");
+    let htmlString = "";
+
+    for (let i = 0; i < skills.length; i++) {
+        if (i % 3 === 0) {
+            htmlString += '<div class="columns">';
+        }
+        htmlString += `
+            <div class="column is-one-third">
+                <div class="box primary">
+                    <div class="icon-text is-size-4">
+                        <span class="icon has-text-primary">${skills[i].icon}</span>
+                        <span>&nbsp;${skills[i].name}</span>
+                    </div>
+                </div>
+            </div>
+        `;
+        if ((i + 1) % 3 === 0 || i === skills.length - 1) {
+            htmlString += '</div>';
+        }
+    }
+    section.innerHTML += htmlString;
 }
-*/
 
 function addProjects() {
     let section = document.getElementById("projects-section");
@@ -306,6 +428,26 @@ function addProjects() {
     section.innerHTML += htmlString;
 }
 
+function addAccomplishments() {
+    let section = document.getElementById("accomplishment-images");
+    let dots = document.getElementById("accomplishment-dots");
+    let htmlString = "";
+    let htmlString2 = "";
+    let len = accomplishments.length;
+    let i = 1;
+    accomplishments.forEach(item => {
+        htmlString += `<div class="myAccomplishmentSlides fade">
+                        <div class="numbertext">${i} / ${len}</div>
+                        <img class="hobby-img" src="img/${item['image']}" style="width:100%">
+                        <div class="text-inverse">${item['name']}</div>
+                    </div>`;
+        htmlString2 += `<span class="accomplishmentDot" onclick="currentAccomplishmentSlide(${i})"></span>`;
+        i += 1;
+    })
+    section.innerHTML += htmlString;
+    dots.innerHTML += htmlString2;
+}
+
 function addHobbies() {
     let section = document.getElementById("hobby-images");
     let dots = document.getElementById("hobby-dots");
@@ -314,36 +456,44 @@ function addHobbies() {
     let len = hobbies.length;
     let i = 1;
     hobbies.forEach(item => {
-        htmlString += `<div class="mySlides fade">
+        htmlString += `<div class="myHobbySlides fade">
                         <div class="numbertext">${i} / ${len}</div>
                         <img class="hobby-img" src="img/${item['image']}" style="width:100%">
                         <div class="text">${item['name']}</div>
                     </div>`;
-        htmlString2 += `<span class="dot" onclick="currentSlide(${i})"></span>`;
+        htmlString2 += `<span class="hobbyDot" onclick="currentHobbySlide(${i})"></span>`;
         i += 1;
     })
     section.innerHTML += htmlString;
     dots.innerHTML += htmlString2;
 }
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
+function plusHobbySlides(n) {
+    showHobbySlides(hobbySlideIndex += n);
 }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
+function plusAccomplishmentSlides(n) {
+    showAccomplishmentSlides(accomplishmentSlideIndex += n);
 }
 
-function showSlides(n) {
+function currentHobbySlide(n) {
+    showHobbySlides(hobbySlideIndex = n);
+}
+
+function currentAccomplishmentSlide(n) {
+    showAccomplishmentSlides(accomplishmentSlideIndex = n);
+}
+
+function showAccomplishmentSlides(n) {
     let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
+    let slides = document.getElementsByClassName("myAccomplishmentSlides");
+    let dots = document.getElementsByClassName("accomplishmentDot");
 
     if (n > slides.length) {
-        slideIndex = 1
+        accomplishmentSlideIndex = 1
     }
     if (n < 1) {
-        slideIndex = slides.length
+        accomplishmentSlideIndex = slides.length
     }
 
     for (i = 0; i < slides.length; i++) {
@@ -353,15 +503,41 @@ function showSlides(n) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    slides[accomplishmentSlideIndex - 1].style.display = "block";
+    dots[accomplishmentSlideIndex - 1].className += " active";
+}
+
+function showHobbySlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("myHobbySlides");
+    let dots = document.getElementsByClassName("hobbyDot");
+
+    if (n > slides.length) {
+        hobbySlideIndex = 1
+    }
+    if (n < 1) {
+        hobbySlideIndex = slides.length
+    }
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+
+    slides[hobbySlideIndex - 1].style.display = "block";
+    dots[hobbySlideIndex - 1].className += " active";
 }
 
 addEducation();
 addExperience();
-//addSkills();
+addSkills();
 addProjects();
+addAccomplishments();
 addHobbies();
 
-let slideIndex = 1;
-showSlides(slideIndex);
+let hobbySlideIndex = 1;
+let accomplishmentSlideIndex = 1;
+showAccomplishmentSlides(accomplishmentSlideIndex);
+showHobbySlides(hobbySlideIndex);
