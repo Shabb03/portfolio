@@ -232,6 +232,12 @@ const projects = [
     },
 
     {
+        name: "Sudoku Solver",
+        image: "sudoku.png",
+        link: "https://github.com/Shabb03/Sudoku-Solver"
+    },
+
+    {
         name: "Sorting Algorithm Visualiser",
         image: "sortingvisualiser.png",
         link: "https://github.com/Shabb03/Python-Projects/blob/main/sorting_visualiser.py"
