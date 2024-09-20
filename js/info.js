@@ -7,22 +7,22 @@ const education = [
 
     {
         year: "2020-2024",
-        title: "Bachelors in Computer Science --- Dublin City University",
-        description: `Expected Graduation in May 2024 with an expected 2.1<br>Final Year Project: Votegrity - Blockchain Voting System
+        title: "BSc in Computer Science --- Dublin City University",
+        description: `Computer Science graduate at DCU with a 1.1 Honours degree<br>Final Year Project: Votegrity - Cryptography Blockchain Voting System
                     <br>Relevant modules:
                     <br>- DevOps
+                    <br>- Full-Stack development
                     <br>- Software Engineering Process, Principles and Methods
                     <br>- Software Testing
                     <br>- Systems Analysis
                     <br>- Linear Algebra
                     <br>- Data Warehousing
-                    <br>- Full-Stack development
     `},
 
     {
         year: "2015-2020",
         title: "Leaving Certificate: 521 points --- Ardgillan Community College",
-        description: "Design and Communication Graphics: H1<br>Engineering: H2<br>Applied Maths: H3<br>Maths: H3<br>Physics: H3"
+        description: "Leaving Certificate Points: 521"
     },
 ];
 
@@ -34,19 +34,23 @@ const work = [
     */
 
     {
-        year: "03/2023-08/2023",
+        year: "March/2023-August/2023",
         title: "Software Engineer Business Intelligence Intern --- Irish Life",
-        description: "Resolved critical issues by identifying and debugging failures then refactored the code for higher maintainability<br>Collaborated with team members to produce automated tasks and processes successfully within hours<br>Effectively communicated complex technical concepts to the business team during the development of automation processes<br>Ensured data integrity and accuracy<br>Completed weekly data fixes"
+        description: `Performed weekly data fixes using SQL Server to ensure data integrity and accuracy
+        <br>Identified and debugged critical issues in SSIS applications and Powershell scripts
+        <br>Collaborated with Agile teams to deliver process improvements within tight deadlines
+        <br>Effectively communicated complex technical concepts to the business team during the development of automation processes using SSIS, Excel, PowerShell and SQL Server
+        <br>Ensured system accuracy and compliance with data validation protocols using Excel and SQL`
     },
 
     {
-        year: "10/2022-01/2023",
+        year: "October/2022-January/2023",
         title: "Security Guard --- Integrity Security",
         description: "Authorized entry of select individuals<br>Documenting activities<br>Patrolling of the designated building<br>Communicated effectively with security team members"
     },
 
     {
-        year: "12/2021-08/2022",
+        year: "November/2021-August/2022",
         title: "Team Member --- SSP",
         description: "Worked in all aspects of the fast-paced restaurant with team members to quickly produce orders<br>Trained new members as well as assisted them to adjust to the fast and busy environment"
     },
@@ -65,12 +69,32 @@ const skills = [
     },
 
     {
+        name: "JavaScript",
+        icon: `<i class="fa-brands fa-js"></i>`
+    },
+
+    {
         name: "Java",
         icon: `<i class="fa-brands fa-java"></i>`
     },
 
     {
-        name: "MySQL + SQL Server",
+        name: "C#",
+        icon: `<i class="fa-solid fa-c"></i>`
+    },
+
+    {
+        name: "C",
+        icon: `<i class="fa-solid fa-c"></i>`
+    },
+
+    {
+        name: "MySQL",
+        icon: `<i class="fa-solid fa-database"></i>`
+    },
+
+    {
+        name: "SQL Server",
         icon: `<i class="fa-solid fa-database"></i>`
     },
 
@@ -80,13 +104,13 @@ const skills = [
     },
 
     {
-        name: "C",
-        icon: `<i class="fa-solid fa-c"></i>`
+        name: "Solidity",
+        icon: `<i class="fa-brands fa-ethereum"></i>`
     },
 
     {
-        name: "Solidity",
-        icon: `<i class="fa-brands fa-ethereum"></i>`
+        name: "Git",
+        icon: `<i class="fa-brands fa-git"></i>`
     },
 
     {
@@ -105,18 +129,18 @@ const skills = [
     },
 
     {
-        name: "Jest",
-        icon: `<i class="fa-solid fa-magnifying-glass"></i>`
-    },
-
-    {
         name: "AWS",
         icon: `<i class="fa-brands fa-aws"></i>`
     },
 
     {
-        name: "Hardhat",
-        icon: `<i class="fa-solid fa-helmet-safety"></i>`
+        name: "Docker",
+        icon: `<i class="fa-brands fa-docker"></i>`
+    },
+
+    {
+        name: "Jest",
+        icon: `<i class="fa-solid fa-magnifying-glass"></i>`
     },
 
     {
@@ -125,13 +149,18 @@ const skills = [
     },
 
     {
+        name: "UML",
+        icon: `<i class="fa-solid fa-pen"></i>`
+    },
+
+    {  
         name: "Figma",
         icon: `<i class="fa-brands fa-figma"></i>`
     },
 
     {
-        name: "UML",
-        icon: `<i class="fa-solid fa-pen"></i>`
+        name: "Hardhat",
+        icon: `<i class="fa-solid fa-helmet-safety"></i>`
     },
 
     {
