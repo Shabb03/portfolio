@@ -50,7 +50,7 @@ const work = [
     },
 
     {
-        year: "November/2021-August/2022",
+        year: "December/2021-August/2022",
         title: "Team Member --- SSP",
         description: "Worked in all aspects of the fast-paced restaurant with team members to quickly produce orders<br>Trained new members as well as assisted them to adjust to the fast and busy environment"
     },
