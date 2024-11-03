@@ -23,25 +23,14 @@ function lightMode() {
     }
 }
 
-/*
-const dayNight = document.querySelector(".day-night");
-dayNight.addEventListener("click", lightMode)
-
-let theme = localStorage.getItem("portfolio_theme");
-if (theme == "light") {
-    lightMode();
-}*/
-
-
-
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
-    document.body.classList.toggle("transition"); // Add transition class
-    lightMode(); // Delay lightMode function by 3 seconds
+    document.body.classList.toggle("transition");
+    lightMode();
 });
 
 let theme = localStorage.getItem("portfolio_theme");
 if (theme == "light") {
-    document.body.classList.add("transition"); // Add transition class
-    lightMode(); // Delay lightMode function by 3 seconds
+    document.body.classList.add("transition");
+    lightMode();
 }

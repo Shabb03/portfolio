@@ -16,12 +16,18 @@ const education = [
                     <br>- Software Testing
                     <br>- Systems Analysis
                     <br>- Linear Algebra
-                    <br>- Data Warehousing
+                    <br>- Data Warehousing & Data Mining
+                    <br>- Machine Translation
+                    <br>- Search Technologies
+                    <br>- Computer graphics and Image processing
+                    <br>- Compiler Construction
+                    <br>- IT architecture
+                    <br>- User interface design and implementation
     `},
 
     {
         year: "2015-2020",
-        title: "Leaving Certificate: 521 points --- Ardgillan Community College",
+        title: "Leaving Certificate --- Ardgillan Community College",
         description: "Leaving Certificate Points: 521"
     },
 ];
@@ -119,8 +125,18 @@ const skills = [
     },
 
     {
+        name: "React Native",
+        icon: `<i class="fa-brands fa-react"></i>`
+    },
+
+    {
         name: "Vue.js",
         icon: `<i class="fa-brands fa-react"></i>`
+    },
+
+    {
+        name: ".NET",
+        icon: `<i class="fa-brands fa-windows"></i>`
     },
 
     {
@@ -283,6 +299,12 @@ const projects = [
         image: "typing.png",
         link: "https://github.com/Shabb03/Python-Projects/blob/main/typing.py"
     },
+
+    {
+        name: "CyberLink",
+        image: "cyberlink.png",
+        link: "https://github.com/Shabb03/CyberLink"
+    },
 ];
 
 const accomplishments = [
@@ -392,24 +414,6 @@ function addExperience() {
 }
 
 function addSkills() {
-    /*
-    let section = document.getElementById("skills-section");
-    let htmlString = "";
-    skills.forEach(item=>{
-        htmlString += `<div class="box">
-                        <div class="icon-text is-size-4">
-                            <span class="icon has-text-primary">
-                                ${item['icon']}
-                            </span>
-                            <span>&nbsp;${item['name']}</span>
-                        </div>
-                        <br>
-                        <progress class="progress" value="${item['percent']}" max="100">${item['percent']}%</progress>
-                    </div>`;
-    })
-    section.innerHTML += htmlString;
-    */
-
     let section = document.getElementById("skills-section");
     let htmlString = "";
 
