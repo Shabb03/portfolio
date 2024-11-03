@@ -8,6 +8,7 @@
 
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
     <script src="https://kit.fontawesome.com/08e4643268.js" crossorigin="anonymous"></script>
 
@@ -42,7 +43,7 @@
         <div class="scroll-bar"></div>
     </header>
 
-    <section class="block" id="home">
+    <section class="block" id="home" data-aos="fade-up">
         <br>
         <br>
         <br>
@@ -71,7 +72,7 @@
         </div>
     </section>
 
-    <section class="block" id="history">
+    <section class="block" id="history" data-aos="fade-up">
         <div class="container">
             <div class="header">
                 <div class="inner-header flex">
@@ -116,7 +117,7 @@
 
     </section>
 
-    <section class="block" id="skills">
+    <section class="block" id="skills" data-aos="fade-up">
         <br>
         <br>
         <br>
@@ -134,7 +135,7 @@
 
     </section>
 
-    <section class="block" id="projects">
+    <section class="block" id="projects" data-aos="fade-up">
         <br>
         <br>
         <br>
@@ -153,7 +154,7 @@
 
     </section>
 
-    <section class="block" id="accomplishments">
+    <section class="block" id="accomplishments" data-aos="fade-up">
         <br>
         <br>
         <br>
@@ -176,7 +177,7 @@
 
     </section>
 
-    <section class="block" id="hobby">
+    <section class="block" id="hobby" data-aos="fade-up">
         <br>
         <br>
         <br>
@@ -198,6 +199,15 @@
         </div>
 
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 50
+        });
+    </script>
 </body>
 
 </html>
