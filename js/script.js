@@ -34,3 +34,7 @@ if (theme == "light") {
     document.body.classList.add("transition");
     lightMode();
 }
+
+function toggleNavbar() {
+    document.getElementById("navbarBasicExample").classList.toggle("is-active");
+}

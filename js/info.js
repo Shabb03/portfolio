@@ -313,6 +313,9 @@ const accomplishments = [
     image: ""},
     */
     {
+        name: "Graduation", 
+        image: "graduation.png"},
+    {
         name: "Final Year Expo",
         image: "expo.png"
     },
