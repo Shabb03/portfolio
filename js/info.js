@@ -40,25 +40,45 @@ const work = [
     */
 
     {
-        year: "March/2023-August/2023",
+        year: "February/2025--Today", 
+        title: "Graduate Product Engineer", 
+        description: "Currently onboarding"
+    },
+
+    {
+        year: "March/2023--August/2023",
         title: "Software Engineer Business Intelligence Intern --- Irish Life",
-        description: `Performed weekly data fixes using SQL Server to ensure data integrity and accuracy
-        <br>Identified and debugged critical issues in SSIS applications and Powershell scripts
-        <br>Collaborated with Agile teams to deliver process improvements within tight deadlines
-        <br>Effectively communicated complex technical concepts to the business team during the development of automation processes using SSIS, Excel, PowerShell and SQL Server
-        <br>Ensured system accuracy and compliance with data validation protocols using Excel and SQL`
+        description: `Performed weekly data fixes using SQL Server to maintain data integrity and accuracy
+                        <br>Identified and debugged critical issues in SSIS applications and Powershell scripts
+                        <br>Collaborated with Agile teams to deliver process improvements within tight deadlines
+                        <br>Programmed and implemented automation processes using SSIS, Excel, PowerShell, and SQL Server to optimize workflows
+                        <br>Verified system accuracy and compliance with data validation protocols using Excel and SQL`
     },
 
     {
-        year: "October/2022-January/2023",
+        year: "November/2025--February/2025", 
+        title: "Crew Member --- McDonald's", 
+        description: `Delivered exceptional customer service in a fast-paced environment, upholding customer satisfaction and repeat business
+                        <br>Co-ordinated with team members to achieve daily sales goals and meet high-volume demands during peak hours
+                        <br>Managed inventory levels and restocked supplies to support smooth operations
+                        <br>Maintained compliance with health and safety regulations to create a safe working environment`
+    },
+
+    {
+        year: "October/2022--January/2023",
         title: "Security Guard --- Integrity Security",
-        description: "Authorized entry of select individuals<br>Documenting activities<br>Patrolling of the designated building<br>Communicated effectively with security team members"
+        description: `Authorized entry of select individuals
+                        <br>Documenting activities
+                        <br>Patrolling of the designated building
+                        <br>Communicated with security team members`
     },
 
     {
-        year: "December/2021-August/2022",
+        year: "December/2021--August/2022",
         title: "Team Member --- SSP",
-        description: "Worked in all aspects of the fast-paced restaurant with team members to quickly produce orders<br>Trained new members as well as assisted them to adjust to the fast and busy environment"
+        description: `Gained skills in all aspects of the fast-paced restaurant with team members to quickly produce orders
+                        <br>Trained and assisted new members to adjust to the fast and busy environment
+                        <br>Reduced order processing time by 40%`
     },
 ];
 
