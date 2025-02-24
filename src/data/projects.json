@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Votegrity - Blockchain Voting System",
+            "image": "votegrity.png",
+            "link": "https://github.com/Shabb03/Votegrity"
+        },
+        {
+            "id": 2,
+            "name": "Student Project Management System",
+            "image": "studentproject.png",
+            "link": "https://github.com/Shabb03/Student-Project-Management-System"
+        },
+        {
+            "id": 3,
+            "name": "Decision Tree",
+            "image": "decisiontree.png",
+            "link": "https://github.com/Shabb03/Decision-Tree"
+        },
+        {
+            "id": 4,
+            "name": "Gym Shop",
+            "image": "gymshop.png",
+            "link": "https://github.com/Shabb03/Gym-Shop"
+        },
+        {
+            "id": 5,
+            "name": "Sudoku Solver",
+            "image": "sudoku.png",
+            "link": "https://github.com/Shabb03/Sudoku-Solver"
+        },
+        {
+            "id": 6,
+            "name": "Sorting Algorithm Visualiser",
+            "image": "sortingvisualiser.png",
+            "link": "https://github.com/Shabb03/Python-Projects/blob/main/sorting_visualiser.py"
+        },
+        {
+            "id": 7,
+            "name": "Landing Page",
+            "image": "landing.png",
+            "link": "https://shabb03.github.io/headphones/"
+        },
+        {
+            "id": 8,
+            "name": "Typing Speed Test",
+            "image": "typing.png",
+            "link": "https://github.com/Shabb03/Python-Projects/blob/main/typing.py"
+        },
+        {
+            "id": 9,
+            "name": "CyberLink",
+            "image": "cyberlink.png",
+            "link": "https://github.com/Shabb03/CyberLink"
+        }
+    ]
+}

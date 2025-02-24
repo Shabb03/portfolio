@@ -1,0 +1,109 @@
+{
+    "experience": [
+        {
+            "id": 1,
+            "startDate": "Feb 2025",
+            "endDate": "Present",
+            "company": "Intercom",
+            "title": "Product Engineer",
+            "points": [
+                "Currently onboarding"
+            ]
+        },
+        {
+            "id": 2,
+            "startDate": "Mar 2023",
+            "endDate": "Aug 2023",
+            "company": "Irish Life",
+            "title": "Software Engineer Intern",
+            "points": [
+                "Performed weekly data fixes using SQL Server to maintain data integrity and accuracy",
+                "Identified and debugged critical issues in SSIS applications and Powershell scripts",
+                "Collaborated with Agile teams to deliver process improvements within tight deadlines",
+                "Programmed and implemented automation processes using SSIS, Excel, PowerShell, and SQL Server to optimize workflows",
+                "Verified system accuracy and compliance with data validation protocols using Excel and SQL"
+            ]
+        },
+        {
+            "id": 3,
+            "startDate": "Nov 2024",
+            "endDate": "Feb 2025",
+            "company": "McDonald's",
+            "title": "Crew Member",
+            "points": [
+                "Delivered exceptional customer service in a fast-paced environment, upholding customer satisfaction and repeat business",
+                "Co-ordinated with team members to achieve daily sales goals and meet high-volume demands during peak hours",
+                "Managed inventory levels and restocked supplies to support smooth operations",
+                "Maintained compliance with health and safety regulations to create a safe working environment"
+            ]
+        },
+        {
+            "id": 4,
+            "startDate": "Oct 2022",
+            "endDate": "Jan 2023",
+            "company": "Integrity Security",
+            "title": "Security Guard",
+            "points": [
+                "Authorized entry of select individuals",
+                "Documenting activities",
+                "Patrolling of the designated building",
+                "Communicated with security team members"
+            ]
+        },
+        {
+            "id": 5,
+            "startDate": "Dec 2021",
+            "endDate": "Aug 2022",
+            "company": "SSP",
+            "title": "Team Member",
+            "points": [
+                "Gained skills in all aspects of the fast-paced restaurant with team members to quickly produce orders",
+                "Trained and assisted new members to adjust to the fast and busy environment",
+                "Reduced order processing time by 40%"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "startDate": "Sep 2020",
+            "endDate": "Oct 2024",
+            "school": "Dublin City University",
+            "degree": "BSc in Computer Science",
+            "points": [
+                "Computer Science graduate at DCU with a 1.1 Honours degree",
+                "Final Year Project: Votegrity - Cryptography Blockchain Voting System",
+                "Relevant modules:",
+                "- DevOps",
+                "- Full-Stack development",
+                "- Software Engineering Process, Principles and Methods",
+                "- Software Testing",
+                "- Systems Analysis",
+                "- Linear Algebra",
+                "- Data Warehousing & Data Mining",
+                "- Machine Translation",
+                "- Search Technologies",
+                "- Computer graphics and Image processing",
+                "- Compiler Construction",
+                "- IT architecture",
+                "- User interface design and implementation"
+            ]
+        },
+        {
+            "id": 2,
+            "startDate": "Sep 2015",
+            "endDate": "Jun 2020",
+            "school": "Ardgillan Community College",
+            "degree": "Leaving Certificate",
+            "points": [
+                "Leaving Certificate Points: 521",
+                "Strong Subjects:",
+                "- DCG",
+                "- Engineering",
+                "- Applied Maths",
+                "- Maths",
+                "- Physics"
+            ]
+        }
+    ]
+}

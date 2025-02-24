@@ -1,0 +1,39 @@
+{
+    "accomplishments": [
+        {
+            "id": 1,
+            "title": "Graduation",
+            "image": "graduation.png"
+        },
+        {
+            "id": 2,
+            "title": "Final Year Expo",
+            "image": "expo.png"
+        },
+        {
+            "id": 3,
+            "title": "Completed DCU’s bronze engage award",
+            "image": "engage.png"
+        },
+        {
+            "id": 4,
+            "title": "Graphic designer in SpkEsy",
+            "image": "spkesy.png"
+        },
+        {
+            "id": 5,
+            "title": "Top 10 at Ardgillan Community College",
+            "image": "ardgillan.png"
+        },
+        {
+            "id": 6,
+            "title": "Volunteered for St Vincent De Paul",
+            "image": "svp.png"
+        },
+        {
+            "id": 7,
+            "title": "Self-taught Applied Maths",
+            "image": "appliedmaths.png"
+        }
+    ]
+}
