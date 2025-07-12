@@ -1,0 +1,448 @@
+.home {
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80vh;
+  padding: 2rem 5%;
+  background: var(--gradient-surface), var(--grid-bg);
+  color: var(--text-primary);
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition-color);
+}
+
+body.dark-theme .hero {
+  background: 
+    linear-gradient(135deg, var(--primary-alpha-20) 0%, var(--bg-overlay) 100%),
+    var(--grid-bg);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    0deg,
+    var(--primary-glow-lines),
+    var(--primary-glow-lines) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+body.dark-theme .hero::before {
+  background-image: repeating-linear-gradient(
+    0deg,
+    var(--primary-glow-lines-strong),
+    var(--primary-glow-lines-strong) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, transparent 60%, var(--bg-overlay) 100%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+body.dark-theme .hero::after {
+  background: radial-gradient(circle at center, transparent 0%, var(--overlay-gradient) 100%);
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+  position: relative;
+  z-index: 3;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  color: var(--text-primary);
+  text-shadow: var(--shadow-sm);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+body.dark-theme .hero-title {
+  color: var(--primary-color);
+  text-shadow: var(--neon-glow);
+}
+
+.hero-title::before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 2px 0 var(--accent-color);
+  top: 0;
+  color: var(--text-primary);
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: glitch-2 3s infinite linear alternate-reverse;
+}
+
+body.dark-theme .hero-title::before {
+  text-shadow: 2px 0 var(--accent-color);
+  color: var(--primary-color);
+}
+
+.hero-title::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -2px 0 var(--secondary-color);
+  top: 0;
+  color: var(--text-primary);
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: glitch-3 2s infinite linear alternate-reverse;
+}
+
+body.dark-theme .hero-title::after {
+  text-shadow: -2px 0 var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  line-height: 1.6;
+  color: var(--text-primary);
+  text-shadow: var(--shadow-sm);
+  position: relative;
+  z-index: 3;
+}
+
+
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+
+
+.hero-image {
+  flex: 1;
+  max-width: 500px;
+  position: relative;
+  z-index: 3;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--border-color);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition-all);
+}
+
+body.dark-theme .profile-image {
+  border: 2px solid var(--primary-color);
+  box-shadow: var(--neon-glow);
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-xl);
+}
+
+body.dark-theme .profile-image:hover {
+  box-shadow: var(--neon-glow-strong);
+}
+
+.hero-image::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid var(--primary-color);
+  border-left: 2px solid var(--primary-color);
+  z-index: 2;
+}
+
+.hero-image::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 15px;
+  height: 15px;
+  border-bottom: 2px solid var(--primary-color);
+  border-right: 2px solid var(--primary-color);
+  z-index: 2;
+}
+
+.intro {
+  padding: var(--section-padding) 0;
+  background-color: var(--bg-secondary);
+  position: relative;
+}
+
+.intro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--grid-bg);
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+  text-align: center;
+  text-shadow: var(--shadow-sm);
+  font-family: var(--font-family-mono);
+}
+
+body.dark-theme .intro h2 {
+  color: var(--primary-color);
+  text-shadow: var(--neon-glow);
+}
+
+.intro p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.intro p::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid var(--primary-color);
+  border-left: 2px solid var(--primary-color);
+  opacity: 0.3;
+}
+
+.intro p::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-bottom: 2px solid var(--primary-color);
+  border-right: 2px solid var(--primary-color);
+  opacity: 0.3;
+}
+
+
+
+@keyframes glitch-2 {
+  0% {
+    clip: rect(42px, 9999px, 44px, 0);
+  }
+  5% {
+    clip: rect(12px, 9999px, 59px, 0);
+  }
+  10% {
+    clip: rect(48px, 9999px, 29px, 0);
+  }
+  15% {
+    clip: rect(42px, 9999px, 73px, 0);
+  }
+  20% {
+    clip: rect(63px, 9999px, 27px, 0);
+  }
+  25% {
+    clip: rect(34px, 9999px, 55px, 0);
+  }
+  30% {
+    clip: rect(86px, 9999px, 73px, 0);
+  }
+  35% {
+    clip: rect(20px, 9999px, 20px, 0);
+  }
+  40% {
+    clip: rect(26px, 9999px, 60px, 0);
+  }
+  45% {
+    clip: rect(25px, 9999px, 85px, 0);
+  }
+  50% {
+    clip: rect(57px, 9999px, 52px, 0);
+  }
+  55% {
+    clip: rect(38px, 9999px, 91px, 0);
+  }
+  60% {
+    clip: rect(98px, 9999px, 5px, 0);
+  }
+  65% {
+    clip: rect(93px, 9999px, 66px, 0);
+  }
+  70% {
+    clip: rect(18px, 9999px, 39px, 0);
+  }
+  75% {
+    clip: rect(67px, 9999px, 30px, 0);
+  }
+  80% {
+    clip: rect(47px, 9999px, 75px, 0);
+  }
+  85% {
+    clip: rect(78px, 9999px, 90px, 0);
+  }
+  90% {
+    clip: rect(52px, 9999px, 63px, 0);
+  }
+  95% {
+    clip: rect(45px, 9999px, 85px, 0);
+  }
+  100% {
+    clip: rect(60px, 9999px, 95px, 0);
+  }
+}
+
+@keyframes glitch-3 {
+  0% {
+    clip: rect(25px, 9999px, 99px, 0);
+  }
+  5% {
+    clip: rect(49px, 9999px, 93px, 0);
+  }
+  10% {
+    clip: rect(90px, 9999px, 92px, 0);
+  }
+  15% {
+    clip: rect(43px, 9999px, 15px, 0);
+  }
+  20% {
+    clip: rect(68px, 9999px, 54px, 0);
+  }
+  25% {
+    clip: rect(81px, 9999px, 70px, 0);
+  }
+  30% {
+    clip: rect(69px, 9999px, 73px, 0);
+  }
+  35% {
+    clip: rect(40px, 9999px, 63px, 0);
+  }
+  40% {
+    clip: rect(17px, 9999px, 99px, 0);
+  }
+  45% {
+    clip: rect(6px, 9999px, 16px, 0);
+  }
+  50% {
+    clip: rect(99px, 9999px, 62px, 0);
+  }
+  55% {
+    clip: rect(83px, 9999px, 3px, 0);
+  }
+  60% {
+    clip: rect(46px, 9999px, 27px, 0);
+  }
+  65% {
+    clip: rect(34px, 9999px, 55px, 0);
+  }
+  70% {
+    clip: rect(86px, 9999px, 73px, 0);
+  }
+  75% {
+    clip: rect(20px, 9999px, 20px, 0);
+  }
+  80% {
+    clip: rect(26px, 9999px, 60px, 0);
+  }
+  85% {
+    clip: rect(25px, 9999px, 85px, 0);
+  }
+  90% {
+    clip: rect(57px, 9999px, 52px, 0);
+  }
+  95% {
+    clip: rect(38px, 9999px, 91px, 0);
+  }
+  100% {
+    clip: rect(98px, 9999px, 5px, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .profile-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .intro {
+    padding: 2rem 0;
+  }
+
+  .intro h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero .btn {
+    width: 100%;
+    max-width: 250px;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Rishab",
+  "subtitle": "Product Engineer @ Intercom",
+  "aboutMe": "I'm a Product Engineer focused on building impactful, user-centric products. I work across the product lifecycle—from shaping early ideas and developing new features to fixing real-world issues reported by users. I ship fast and often, prioritizing momentum and learning through iteration. I'm always looking to improve—whether it's the product, the codebase, or my own skills. I enjoy solving meaningful problems through thoughtful design and code, and delivering experiences that feel simple, fast, and intuitive.",
+  "profileImage": "profile.png",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/rishab-sidhu/",
+    "github": "https://github.com/rishab-intercom"
+  }
+}

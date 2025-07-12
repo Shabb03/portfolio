@@ -1,0 +1,79 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "tryAgain": "Try again",
+    "goHome": "Go Home",
+    "portfolio": "Portfolio",
+    "skipToContent": "Skip to main content",
+    "scrollToTop": "Scroll to top",
+    "errorDetails": "Error details"
+  },
+  "navigation": {
+    "home": "Home",
+    "history": "History",
+    "skills": "Skills",
+    "projects": "Projects",
+    "accomplishments": "Accomplishments",
+    "hobbies": "Hobbies",
+    "toggleTheme": "Toggle theme",
+    "switchToLightMode": "Switch to light mode",
+    "switchToDarkMode": "Switch to dark mode"
+  },
+  "home": {
+    "welcomeTitle": "Welcome to {name}'s Portfolio",
+    "profileImageAlt": "Profile Image",
+    "linkedinButton": "LinkedIn",
+    "githubButton": "GitHub",
+    "aboutMeTitle": "About Me"
+  },
+  "history": {
+    "pageTitle": "My Journey",
+    "pageSubtitle": "A timeline of my professional and educational milestones",
+    "timelineLabel": "Professional and educational timeline",
+    "yearLabel": "Year {year}",
+    "typeLabel": "Type: {type}"
+  },
+  "skills": {
+    "pageTitle": "Skills & Expertise",
+    "pageSubtitle": "Technologies and tools I work with"
+  },
+  "projects": {
+    "pageTitle": "Projects",
+    "pageSubtitle": "A showcase of my recent work, side projects, and open source contributions",
+    "viewCode": "View Code",
+    "code": "Code",
+    "projectTechnologies": "Technologies: {technologies}",
+    "projectImageAlt": "Screenshot of {title} project"
+  },
+  "accomplishments": {
+    "pageTitle": "Accomplishments",
+    "pageSubtitle": "Recognition, certifications, and achievements throughout my career",
+    "categories": {
+      "award": "Awards",
+      "certification": "Certifications",
+      "achievement": "Achievements"
+    },
+    "categoryLabel": "Category: {category}"
+  },
+  "hobbies": {
+    "pageTitle": "Hobbies & Interests",
+    "pageSubtitle": "What I love to do in my free time and how I stay balanced",
+    "benefitsTitle": "Benefits of Having Hobbies",
+    "hobbyAlt": "{hobbyName} hobby"
+  },
+  "errors": {
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundMessage": "The page you are looking for doesn't exist or has been moved.",
+    "somethingWentWrong": "Something went wrong",
+    "errorMessage": "We're sorry, but an error occurred while loading this page.",
+    "notFoundTitle": "404"
+  },
+  "aria": {
+    "mainNavigation": "Main navigation",
+    "mainContent": "Main content"
+  },
+  "screenReader": {
+    "newTabIndicator": "(opens in new tab)",
+    "currentPageIndicator": "(current page)"
+  }
+}

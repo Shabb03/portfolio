@@ -1,58 +1,52 @@
-{
-    "projects": [
-        {
-            "id": 1,
-            "name": "Votegrity - Blockchain Voting System",
-            "image": "votegrity.png",
-            "link": "https://github.com/Shabb03/Votegrity"
-        },
-        {
-            "id": 2,
-            "name": "Student Project Management System",
-            "image": "studentproject.png",
-            "link": "https://github.com/Shabb03/Student-Project-Management-System"
-        },
-        {
-            "id": 3,
-            "name": "Decision Tree",
-            "image": "decisiontree.png",
-            "link": "https://github.com/Shabb03/Decision-Tree"
-        },
-        {
-            "id": 4,
-            "name": "Gym Shop",
-            "image": "gymshop.png",
-            "link": "https://github.com/Shabb03/Gym-Shop"
-        },
-        {
-            "id": 5,
-            "name": "Sudoku Solver",
-            "image": "sudoku.png",
-            "link": "https://github.com/Shabb03/Sudoku-Solver"
-        },
-        {
-            "id": 6,
-            "name": "Sorting Algorithm Visualiser",
-            "image": "sortingvisualiser.png",
-            "link": "https://github.com/Shabb03/Python-Projects/blob/main/sorting_visualiser.py"
-        },
-        {
-            "id": 7,
-            "name": "Landing Page",
-            "image": "landing.png",
-            "link": "https://shabb03.github.io/headphones/"
-        },
-        {
-            "id": 8,
-            "name": "Typing Speed Test",
-            "image": "typing.png",
-            "link": "https://github.com/Shabb03/Python-Projects/blob/main/typing.py"
-        },
-        {
-            "id": 9,
-            "name": "CyberLink",
-            "image": "cyberlink.png",
-            "link": "https://github.com/Shabb03/CyberLink"
-        }
-    ]
-}
+[
+  {
+    "title": "Votegrity",
+    "description": "A blockchain voting system for elections.",
+    "technologies": [
+      "Vue",
+      "Node.js",
+      "MySQL",
+      "Docker",
+      "AWS",
+      "Blockchain",
+      "Solidity",
+      "EVM",
+      "Web3.js"
+    ],
+    "image": "votegrity.png",
+    "codeUrl": "https://github.com/Shabb03/Votegrity",
+    "featured": true
+  },
+  {
+    "title": "CyberLink",
+    "description": "A cyberpunk themed social media application",
+    "technologies": ["React Native", "C#", "SQL Server"],
+    "image": "cyberlink.png",
+    "codeUrl": "https://github.com/Shabb03/CyberLink",
+    "featured": true
+  },
+  {
+    "title": "Student Project Management System",
+    "description": "A system for professors and students to manage projects and submissions.",
+    "technologies": ["Node.js", "Django", "SQLite", "BulmaCSS"],
+    "image": "studentproject.png",
+    "codeUrl": "https://github.com/Shabb03/Student-Project-Management-System",
+    "featured": false
+  },
+  {
+    "title": "Predictive Decision Tree",
+    "description": "A decision tree for predicting the outcome given a large dataset",
+    "technologies": ["Python"],
+    "image": "decisiontree.png",
+    "codeUrl": "https://github.com/Shabb03/Decision-Tree",
+    "featured": false
+  },
+  {
+    "title": "Sudoku Solver",
+    "description": "A sudoku solver that uses a backtracking algorithm to solve the puzzle.",
+    "technologies": ["JavaScript"],
+    "image": "sudoku.png",
+    "codeUrl": "https://github.com/Shabb03/Sudoku-Solver",
+    "featured": false
+  }
+]

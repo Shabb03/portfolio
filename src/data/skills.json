@@ -1,179 +1,134 @@
-{
+[
+  {
+    "category": "Frontend Development",
+    "icon": "🎨",
     "skills": [
-        {
-            "id": 1,
-            "name": "Python",
-            "icon": "fa-brands fa-python"
-        },
-        {
-            "id": 2,
-            "name": "JavaScript",
-            "icon": "fa-brands fa-js"
-        },
-        {
-            "id": 3,
-            "name": "Java",
-            "icon": "fa-brands fa-java"
-        },
-        {
-            "id": 4,
-            "name": "C#",
-            "icon": "fa-solid fa-c"
-        },
-        {
-            "id": 5,
-            "name": "C",
-            "icon": "fa-solid fa-c"
-        },
-        {
-            "id": 6,
-            "name": "MySQL",
-            "icon": "fa-solid fa-database"
-        },
-        {
-            "id": 7,
-            "name": "SQL Server",
-            "icon": "fa-solid fa-database"
-        },
-        {
-            "id": 8,
-            "name": "Linux",
-            "icon": "fa-brands fa-linux"
-        },
-        {
-            "id": 9,
-            "name": "Solidity",
-            "icon": "fa-brands fa-ethereum"
-        },
-        {
-            "id": 10,
-            "name": "Git",
-            "icon": "fa-brands fa-git"
-        },
-        {
-            "id": 11,
-            "name": "Node.js",
-            "icon": "fa-brands fa-node"
-        },
-        {
-            "id": 12,
-            "name": "React Native",
-            "icon": "fa-brands fa-react"
-        },
-        {
-            "id": 13,
-            "name": "Vue.js",
-            "icon": "fa-brands fa-react"
-        },
-        {
-            "id": 14,
-            "name": ".NET",
-            "icon": "fa-brands fa-windows"
-        },
-        {
-            "id": 15,
-            "name": "Django",
-            "icon": "fa-solid fa-d"
-        },
-        {
-            "id": 16,
-            "name": "AWS",
-            "icon": "fa-brands fa-aws"
-        },
-        {
-            "id": 17,
-            "name": "Docker",
-            "icon": "fa-brands fa-docker"
-        },
-        {
-            "id": 18,
-            "name": "Jest",
-            "icon": "fa-solid fa-magnifying-glass"
-        },
-        {
-            "id": 19,
-            "name": "Postman API",
-            "icon": "fa-solid fa-arrow-right"
-        },
-        {
-            "id": 20,
-            "name": "UML",
-            "icon": "fa-solid fa-pen"
-        },
-        {
-            "id": 21,
-            "name": "Figma",
-            "icon": "fa-brands fa-figma"
-        },
-        {
-            "id": 22,
-            "name": "Hardhat",
-            "icon": "fa-solid fa-helmet-safety"
-        },
-        {
-            "id": 23,
-            "name": "Agile Scrum",
-            "icon": "fa-solid fa-code"
-        },
-        {
-            "id": 24,
-            "name": "Design Principles",
-            "icon": "fa-solid fa-file"
-        },
-        {
-            "id": 25,
-            "name": "Microsoft Suite",
-            "icon": "fa-brands fa-microsoft"
-        },
-        {
-            "id": 26,
-            "name": "Automation Testing",
-            "icon": "fa-brands fa-git-alt"
-        },
-        {
-            "id": 27,
-            "name": "Graphic Design",
-            "icon": "fa-solid fa-palette"
-        },
-        {
-            "id": 28,
-            "name": "OOP",
-            "icon": "fa-solid fa-object-group"
-        },
-        {
-            "id": 29,
-            "name": "Problem Solving",
-            "icon": ""
-        },
-        {
-            "id": 30,
-            "name": "Teamwork",
-            "icon": ""
-        },
-        {
-            "id": 31,
-            "name": "Organisational",
-            "icon": ""
-        },
-        {
-            "id": 32,
-            "name": "Time Management",
-            "icon": ""
-        },
-        {
-            "id": 33,
-            "name": "Interpersonal Skills",
-            "icon": ""
-        },
-        {
-            "id": 34,
-            "name": "Adaptability",
-            "icon": ""
-        },
-        {
-            "id": 35,
-            "name": "Multi-tasking",
-            "icon": ""
-        }
+      {
+        "name": "React",
+        "icon": "⚛️"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "🔷"
+      },
+      {
+        "name": "React Native",
+        "icon": "📱"
+      }
     ]
-}
+  },
+  {
+    "category": "Backend Development",
+    "icon": "⚙️",
+    "skills": [
+      {
+        "name": "Ruby on Rails",
+        "icon": "💎"
+      },
+      {
+        "name": "Node.js",
+        "icon": "🟢"
+      },
+      {
+        "name": "Django",
+        "icon": "🐍"
+      },
+      {
+        "name": "Python",
+        "icon": "🐍"
+      },
+      {
+        "name": "C# .NET",
+        "icon": "🔵"
+      },
+      {
+        "name": "C",
+        "icon": "⚡"
+      }
+    ]
+  },
+  {
+    "category": "Database",
+    "icon": "💾",
+    "skills": [
+      {
+        "name": "SQL Server",
+        "icon": "🗄️"
+      },
+      {
+        "name": "MySQL",
+        "icon": "🐬"
+      },
+      {
+        "name": "Elasticsearch",
+        "icon": "🔍"
+      }
+    ]
+  },
+  {
+    "category": "DevOps & Cloud",
+    "icon": "☁️",
+    "skills": [
+      {
+        "name": "Docker",
+        "icon": "🐳"
+      },
+      {
+        "name": "AWS",
+        "icon": "☁️"
+      },
+      {
+        "name": "CI/CD",
+        "icon": "🔄"
+      }
+    ]
+  },
+  {
+    "category": "Monitoring & Logging",
+    "icon": "📊",
+    "skills": [
+      {
+        "name": "Snowflake",
+        "icon": "❄️"
+      },
+      {
+        "name": "Datadog",
+        "icon": "🐕"
+      },
+      {
+        "name": "Sentry",
+        "icon": "🛡️"
+      },
+      {
+        "name": "Honeycomb",
+        "icon": "🍯"
+      }
+    ]
+  },
+  {
+    "category": "Soft Skills",
+    "icon": "💬",
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "icon": "🧩"
+      },
+      {
+        "name": "Organisational",
+        "icon": "📋"
+      },
+      {
+        "name": "Time Management",
+        "icon": "⏰"
+      },
+      {
+        "name": "Adaptability",
+        "icon": "🔄"
+      },
+      {
+        "name": "Multi-tasking",
+        "icon": "🎯"
+      }
+    ]
+  }
+]

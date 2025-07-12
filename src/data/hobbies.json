@@ -1,39 +1,51 @@
 {
-    "hobbies": [
-        {
-            "id": 1,
-            "title": "Coding",
-            "image": "coding.png"
-        },
-        {
-            "id": 2,
-            "title": "Basketball",
-            "image": "basketball.png"
-        },
-        {
-            "id": 3,
-            "title": "Reading",
-            "image": "reading.png"
-        },
-        {
-            "id": 4,
-            "title": "Puzzles",
-            "image": "puzzles.png"
-        },
-        {
-            "id": 5,
-            "title": "Graphic Designing",
-            "image": "graphic.png"
-        },
-        {
-            "id": 6,
-            "title": "Investing",
-            "image": "investing.png"
-        },
-        {
-            "id": 7,
-            "title": "Travelling",
-            "image": "plane.png"
-        }
-    ]
+  "hobbies": [
+    {
+      "name": "Basketball",
+      "icon": "🏀",
+      "image": "basketball.png"
+    },
+    {
+      "name": "Reading",
+      "icon": "📚",
+      "image": "reading.png"
+    },
+    {
+      "name": "Art",
+      "icon": "🎨",
+      "image": "art.png"
+    },
+    {
+      "name": "Investing",
+      "icon": "📈",
+      "image": "investing.png"
+    },
+    {
+      "name": "Travelling",
+      "icon": "✈️",
+      "image": "travelling.png"
+    }
+  ],
+  "benefits": [
+    {
+      "icon": "🧠",
+      "title": "Mental Health",
+      "description": "Hobbies help me maintain work-life balance and reduce stress."
+    },
+    {
+      "icon": "💡",
+      "title": "Creativity",
+      "description": "Different activities inspire creative thinking in my professional work."
+    },
+    {
+      "icon": "🤝",
+      "title": "Social Connection",
+      "description": "Many hobbies involve communities and help build meaningful relationships."
+    },
+    {
+      "icon": "🎯",
+      "title": "Focus",
+      "description": "Pursuing diverse interests helps me stay focused and motivated."
+    }
+  ]
 }

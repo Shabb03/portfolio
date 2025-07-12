@@ -1,109 +1,63 @@
 {
-    "experience": [
-        {
-            "id": 1,
-            "startDate": "Feb 2025",
-            "endDate": "Present",
-            "company": "Intercom",
-            "title": "Product Engineer",
-            "points": [
-                "Currently onboarding"
-            ]
-        },
-        {
-            "id": 2,
-            "startDate": "Mar 2023",
-            "endDate": "Aug 2023",
-            "company": "Irish Life",
-            "title": "Software Engineer Intern",
-            "points": [
-                "Performed weekly data fixes using SQL Server to maintain data integrity and accuracy",
-                "Identified and debugged critical issues in SSIS applications and Powershell scripts",
-                "Collaborated with Agile teams to deliver process improvements within tight deadlines",
-                "Programmed and implemented automation processes using SSIS, Excel, PowerShell, and SQL Server to optimize workflows",
-                "Verified system accuracy and compliance with data validation protocols using Excel and SQL"
-            ]
-        },
-        {
-            "id": 3,
-            "startDate": "Nov 2024",
-            "endDate": "Feb 2025",
-            "company": "McDonald's",
-            "title": "Crew Member",
-            "points": [
-                "Delivered exceptional customer service in a fast-paced environment, upholding customer satisfaction and repeat business",
-                "Co-ordinated with team members to achieve daily sales goals and meet high-volume demands during peak hours",
-                "Managed inventory levels and restocked supplies to support smooth operations",
-                "Maintained compliance with health and safety regulations to create a safe working environment"
-            ]
-        },
-        {
-            "id": 4,
-            "startDate": "Oct 2022",
-            "endDate": "Jan 2023",
-            "company": "Integrity Security",
-            "title": "Security Guard",
-            "points": [
-                "Authorized entry of select individuals",
-                "Documenting activities",
-                "Patrolling of the designated building",
-                "Communicated with security team members"
-            ]
-        },
-        {
-            "id": 5,
-            "startDate": "Dec 2021",
-            "endDate": "Aug 2022",
-            "company": "SSP",
-            "title": "Team Member",
-            "points": [
-                "Gained skills in all aspects of the fast-paced restaurant with team members to quickly produce orders",
-                "Trained and assisted new members to adjust to the fast and busy environment",
-                "Reduced order processing time by 40%"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "id": 1,
-            "startDate": "Sep 2020",
-            "endDate": "Oct 2024",
-            "school": "Dublin City University",
-            "degree": "BSc in Computer Science",
-            "points": [
-                "Computer Science graduate at DCU with a 1.1 Honours degree",
-                "Final Year Project: Votegrity - Cryptography Blockchain Voting System",
-                "Relevant modules:",
-                "- DevOps",
-                "- Full-Stack development",
-                "- Software Engineering Process, Principles and Methods",
-                "- Software Testing",
-                "- Systems Analysis",
-                "- Linear Algebra",
-                "- Data Warehousing & Data Mining",
-                "- Machine Translation",
-                "- Search Technologies",
-                "- Computer graphics and Image processing",
-                "- Compiler Construction",
-                "- IT architecture",
-                "- User interface design and implementation"
-            ]
-        },
-        {
-            "id": 2,
-            "startDate": "Sep 2015",
-            "endDate": "Jun 2020",
-            "school": "Ardgillan Community College",
-            "degree": "Leaving Certificate",
-            "points": [
-                "Leaving Certificate Points: 521",
-                "Strong Subjects:",
-                "- DCG",
-                "- Engineering",
-                "- Applied Maths",
-                "- Maths",
-                "- Physics"
-            ]
-        }
-    ]
+  "timelineData": [
+    {
+      "year": "2025-current",
+      "title": "Product Engineer",
+      "company": "Intercom",
+      "description": [
+        "Contributed as a full-stack engineer on the Messenger team, enhancing and maintaining Intercom's customer-facing chat product",
+        "Implemented accessibility improvements independently, helping ensure compliance and usability for high-value customers saving deal worth $500K ARR",
+        "Contributed to the development of Messenger Dark Mode on web, focusing very deeply on design ensuring every aspect is perfect",
+        "Triaged and responded to on-call alerts and issues, coordinating with multiple teams, debugging customer-facing problems, and investigating alarms to maintain system reliability",
+        "Proactively prioritized and resolved high-impact issues, focusing on customers with large ARR or widespread product usage, fixed issues totaling `X` million ARR"
+      ],
+      "type": "work"
+    },
+    {
+      "year": "2023",
+      "title": "Software Engineer Intern",
+      "company": "Irish Life",
+      "description": [
+        "Performed weekly data fixes using SQL Server to maintain data integrity and accuracy",
+        "Identified and debugged critical issues in SSIS applications and Powershell scripts",
+        "Collaborated with Agile teams to deliver process improvements within tight deadlines",
+        "Programmed and implemented automation processes using SSIS, Excel, PowerShell, and SQL Server to optimize workflows",
+        "Verified system accuracy and compliance with data validation protocols using Excel and SQL"
+      ],
+      "type": "work"
+    },
+    {
+      "year": "2020-2024",
+      "title": "Bachelor of Computer Science",
+      "company": "Dublin City University",
+      "description": [
+        "Graduated with First Class Honours",
+        "Specialized in software engineering",
+        "Completed comprehensive coursework in algorithms, data structures, and software development"
+      ],
+      "type": "education"
+    },
+    {
+      "year": "2022-2023",
+      "title": "Security Guard",
+      "company": "Integrity Security",
+      "description": [
+        "Worked as a security guard at various locations throughout Dublin",
+        "Documented activities and communications",
+        "Maintained security protocols and procedures"
+      ],
+      "type": "work"
+    },
+    {
+      "year": "2015-2020",
+      "title": "Leaving Certificate",
+      "company": "Ardgillan Community College",
+      "description": [
+        "Graduated with 521 points",
+        "Strong performance in DCG, Engineering, Maths, Physics, and Applied Maths",
+        "Developed strong analytical and problem-solving skills"
+      ],
+      "type": "education"
+    }
+  ]
 }

@@ -1,0 +1,139 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: var(--transition-color);
+}
+
+.main-content {
+  flex: 1;
+  padding-top: var(--nav-height);
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1001;
+  background: var(--surface-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.dark-mode-toggle:hover {
+  background: var(--surface-tertiary);
+}
+
+.progress-bar {
+  background-color: var(--surface-tertiary);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--gradient-primary);
+  transition: width 1s ease-out;
+}
+
+.status-success {
+  background-color: var(--success-bg);
+  color: var(--success-text);
+}
+
+.status-warning {
+  background-color: var(--warning-bg);
+  color: var(--warning-text);
+}
+
+.status-info {
+  background-color: var(--info-bg);
+  color: var(--info-text);
+}
+
+.icon {
+  filter: drop-shadow(0 2px 4px var(--black-overlay-10));
+  transition: var(--transition);
+}
+
+body.dark-theme .icon {
+  filter: drop-shadow(0 2px 4px var(--black-overlay-30));
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 50vh;
+  color: var(--primary-color);
+}
+
+.loading p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  animation: pulse 1.5s infinite;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--primary-alpha-30);
+  border-radius: var(--border-radius-full);
+  border-top-color: var(--primary-color);
+  animation: spin 1s ease-in-out infinite;
+  box-shadow: var(--neon-glow);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  min-height: 50vh;
+  padding: 2rem;
+}
+
+.error-container h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: var(--neon-glow);
+}
+
+.error-message {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: var(--error-bg);
+  border: 1px solid var(--error-border);
+  border-radius: var(--border-radius);
+  max-width: 100%;
+  overflow-wrap: break-word;
+  color: var(--error-text);
+}

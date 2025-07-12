@@ -1,39 +1,41 @@
 {
-    "accomplishments": [
-        {
-            "id": 1,
-            "title": "Graduation",
-            "image": "graduation.png"
-        },
-        {
-            "id": 2,
-            "title": "Final Year Expo",
-            "image": "expo.png"
-        },
-        {
-            "id": 3,
-            "title": "Completed DCU’s bronze engage award",
-            "image": "engage.png"
-        },
-        {
-            "id": 4,
-            "title": "Graphic designer in SpkEsy",
-            "image": "spkesy.png"
-        },
-        {
-            "id": 5,
-            "title": "Top 10 at Ardgillan Community College",
-            "image": "ardgillan.png"
-        },
-        {
-            "id": 6,
-            "title": "Volunteered for St Vincent De Paul",
-            "image": "svp.png"
-        },
-        {
-            "id": 7,
-            "title": "Self-taught Applied Maths",
-            "image": "appliedmaths.png"
-        }
-    ]
+  "accomplishments": [
+    {
+      "title": "Graduation",
+      "organization": "DCU",
+      "date": "2024",
+      "description": "Graduated with a Bachelor of Science in Computer Science.",
+      "category": "certification",
+      "icon": "🎓"
+    },
+    {
+      "title": "Graphic Designer",
+      "organization": "SpkEsy",
+      "date": "2022",
+      "description": "Designed and created graphics for social media and marketing campaigns.",
+      "category": "achievement",
+      "icon": "🎨"
+    },
+    {
+      "title": "Top of the year - Ardgillan",
+      "organization": "Ardgillan Community College",
+      "date": "2020",
+      "description": "Part of the top 10 achievers in the year.",
+      "category": "achievement",
+      "icon": "⭐"
+    },
+    {
+      "title": "Volunteer",
+      "organization": "St Vincent de Paul",
+      "date": "2018",
+      "description": "Volunteered and raised money for the homeless.",
+      "category": "achievement",
+      "icon": "💰"
+    }
+  ],
+  "categories": {
+    "award": "Awards",
+    "certification": "Certifications",
+    "achievement": "Achievements"
+  }
 }
