@@ -30,7 +30,7 @@ function App() {
   return (
     <ThemeProvider>
       <ErrorBoundary>
-        <Router>
+        <Router basename="/portfolio">
           <Layout>
             <ErrorBoundary>
               <Suspense fallback={<Loading />}>
