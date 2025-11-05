@@ -1,0 +1,32 @@
+{
+  "accomplishments": [
+    {
+      "title": "Graduation",
+      "organization": "DCU",
+      "date": "2024",
+      "description": "Graduated with a Bachelor of Science in Computer Science.",
+      "icon": "🎓"
+    },
+    {
+      "title": "Graphic Designer",
+      "organization": "SpkEsy",
+      "date": "2022",
+      "description": "Designed and created graphics for social media and marketing campaigns.",
+      "icon": "🎨"
+    },
+    {
+      "title": "Top of the year - Ardgillan",
+      "organization": "Ardgillan Community College",
+      "date": "2020",
+      "description": "Part of the top 10 achievers in the year.",
+      "icon": "⭐"
+    },
+    {
+      "title": "Volunteer",
+      "organization": "St Vincent de Paul",
+      "date": "2018",
+      "description": "Volunteered and raised money for the homeless.",
+      "icon": "💰"
+    }
+  ]
+}

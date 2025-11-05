@@ -1,0 +1,134 @@
+[
+  {
+    "category": "Frontend Development",
+    "icon": "🎨",
+    "skills": [
+      {
+        "name": "React",
+        "icon": "⚛️"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "🔷"
+      },
+      {
+        "name": "React Native",
+        "icon": "📱"
+      }
+    ]
+  },
+  {
+    "category": "Backend Development",
+    "icon": "⚙️",
+    "skills": [
+      {
+        "name": "Ruby on Rails",
+        "icon": "💎"
+      },
+      {
+        "name": "Node.js",
+        "icon": "🟢"
+      },
+      {
+        "name": "Django",
+        "icon": "🐍"
+      },
+      {
+        "name": "Python",
+        "icon": "🐍"
+      },
+      {
+        "name": "C# .NET",
+        "icon": "🔵"
+      },
+      {
+        "name": "C",
+        "icon": "⚡"
+      }
+    ]
+  },
+  {
+    "category": "Database",
+    "icon": "💾",
+    "skills": [
+      {
+        "name": "SQL Server",
+        "icon": "🗄️"
+      },
+      {
+        "name": "MySQL",
+        "icon": "🐬"
+      },
+      {
+        "name": "Elasticsearch",
+        "icon": "🔍"
+      }
+    ]
+  },
+  {
+    "category": "DevOps & Cloud",
+    "icon": "☁️",
+    "skills": [
+      {
+        "name": "Docker",
+        "icon": "🐳"
+      },
+      {
+        "name": "AWS",
+        "icon": "☁️"
+      },
+      {
+        "name": "CI/CD",
+        "icon": "🔄"
+      }
+    ]
+  },
+  {
+    "category": "Monitoring & Logging",
+    "icon": "📊",
+    "skills": [
+      {
+        "name": "Snowflake",
+        "icon": "❄️"
+      },
+      {
+        "name": "Datadog",
+        "icon": "🐕"
+      },
+      {
+        "name": "Sentry",
+        "icon": "🛡️"
+      },
+      {
+        "name": "Honeycomb",
+        "icon": "🍯"
+      }
+    ]
+  },
+  {
+    "category": "Soft Skills",
+    "icon": "💬",
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "icon": "🧩"
+      },
+      {
+        "name": "Organisational",
+        "icon": "📋"
+      },
+      {
+        "name": "Time Management",
+        "icon": "⏰"
+      },
+      {
+        "name": "Adaptability",
+        "icon": "🔄"
+      },
+      {
+        "name": "Multi-tasking",
+        "icon": "🎯"
+      }
+    ]
+  }
+]

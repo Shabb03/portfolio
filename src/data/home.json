@@ -1,0 +1,11 @@
+{
+  "name": "Shab",
+  "fullName": "Rishab Sidhu",
+  "subtitle": "Product Engineer",
+  "aboutMe": "I build products that solve real problems for real people. From ideation to deployment, I ship fast and iterate toward excellence. Always asking: how can we make this better?",
+  "profileImage": "profile.png",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/rishab-sidhu/",
+    "github": "https://github.com/shabb03"
+  }
+}

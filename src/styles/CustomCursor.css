@@ -1,0 +1,107 @@
+.custom-cursor,
+.cursor-trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+.custom-cursor {
+  width: 8px;
+  height: 8px;
+  background: var(--color-cursor-primary);
+  box-shadow: 
+    0 0 10px var(--color-cursor-primary),
+    0 0 20px var(--color-cursor-primary),
+    0 0 30px var(--color-cursor-primary);
+  transform-origin: center;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.cursor-trail {
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(
+    circle,
+    rgba(0, 255, 136, 0.3) 0%,
+    rgba(0, 255, 136, 0.1) 50%,
+    transparent 100%
+  );
+  transform-origin: center;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.custom-cursor.visible,
+.cursor-trail.visible {
+  opacity: 1;
+}
+
+.custom-cursor.hovering {
+  transform: scale(1.5);
+  box-shadow: 
+    0 0 15px var(--color-cursor-primary),
+    0 0 30px var(--color-cursor-primary),
+    0 0 45px var(--color-cursor-primary);
+  animation: pulse-glow-intense 1s ease-in-out infinite;
+}
+
+.cursor-trail.hovering {
+  transform: scale(1.8);
+  background: radial-gradient(
+    circle,
+    rgba(0, 255, 136, 0.4) 0%,
+    rgba(0, 255, 136, 0.2) 50%,
+    transparent 100%
+  );
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 
+      0 0 10px var(--color-cursor-primary),
+      0 0 20px var(--color-cursor-primary),
+      0 0 30px var(--color-cursor-primary);
+  }
+  50% {
+    box-shadow: 
+      0 0 15px var(--color-cursor-primary),
+      0 0 25px var(--color-cursor-primary),
+      0 0 35px var(--color-cursor-primary);
+  }
+}
+
+@keyframes pulse-glow-intense {
+  0%, 100% {
+    box-shadow: 
+      0 0 15px var(--color-cursor-primary),
+      0 0 30px var(--color-cursor-primary),
+      0 0 45px var(--color-cursor-primary);
+  }
+  50% {
+    box-shadow: 
+      0 0 20px var(--color-cursor-primary),
+      0 0 40px var(--color-cursor-primary),
+      0 0 60px var(--color-cursor-primary);
+  }
+}
+
+body.custom-cursor-active,
+body.custom-cursor-active * {
+  cursor: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .custom-cursor,
+  .cursor-trail {
+    animation: none;
+    transition: none;
+  }
+  
+  .custom-cursor.hovering {
+    animation: none;
+  }
+}

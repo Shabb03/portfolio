@@ -1,0 +1,46 @@
+{
+  "hobbies": [
+    {
+      "name": "Basketball",
+      "icon": "🏀"
+    },
+    {
+      "name": "Reading",
+      "icon": "📚"
+    },
+    {
+      "name": "Art",
+      "icon": "🎨"
+    },
+    {
+      "name": "Investing",
+      "icon": "📈"
+    },
+    {
+      "name": "Travelling",
+      "icon": "✈️"
+    }
+  ],
+  "benefits": [
+    {
+      "icon": "🧠",
+      "title": "Mental Health",
+      "description": "Hobbies help me maintain work-life balance and reduce stress."
+    },
+    {
+      "icon": "💡",
+      "title": "Creativity",
+      "description": "Different activities inspire creative thinking in my professional work."
+    },
+    {
+      "icon": "🤝",
+      "title": "Social Connection",
+      "description": "Many hobbies involve communities and help build meaningful relationships."
+    },
+    {
+      "icon": "🎯",
+      "title": "Focus",
+      "description": "Pursuing diverse interests helps me stay focused and motivated."
+    }
+  ]
+}

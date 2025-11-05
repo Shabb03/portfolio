@@ -1,0 +1,385 @@
+@import './styles/CustomCursor.css';
+@import './styles/ScrollProgress.css';
+@import './styles/ParallaxContainer.css';
+@import './styles/SectionTransitions.css';
+@import './styles/LazyImage.css';
+
+:root {
+  --color-bg-primary: #0a0a0a;
+  --color-bg-secondary: #111111;
+  --color-bg-tertiary: #1a1a1a;
+  --color-bg-card: #151515;
+
+  --color-accent-primary: #00d4ff;
+  --color-accent-bright: #00e5ff;
+  --color-accent-secondary: #4ff3ff;
+  --color-accent-tertiary: #a855f7;
+  --color-accent-glow: rgba(0, 212, 255, 0.3);
+
+  --color-cursor-primary: #00ff88;
+  --color-cursor-glow: rgba(0, 255, 136, 0.4);
+  
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b0b0b0;
+  --color-text-muted: #6b7280;
+  
+  --color-border: #333333;
+  --color-border-hover: #444444;
+
+  --color-success: #22c55e;
+  --color-success-bright: #4ade80;
+
+  --color-placeholder-light: #f0f0f0;
+  --color-placeholder-dark: #e0e0e0;
+  --color-success-light: #34d399;
+  --color-success-dark: #10b981;
+  --color-warning: #f97316;
+  --color-warning-light: #ffbd2e;
+  --color-info: #79c0ff;
+  --color-info-light: #a5d6ff;
+  --color-error: #ff5f56;
+  --color-gold: #ffd700;
+  --color-gold-bright: #ffed4a;
+  --color-pink: #dc267f;
+  --color-pink-light: #ec4899;
+  --color-pink-syntax: #ff7ac6;
+  --color-purple: #8b5cf6;
+  --color-purple-light: #a855f7;
+  --color-purple-ultra-bright: #e879f9;
+  --color-green-terminal: #27ca3f;
+  
+  --color-code-bg: #1a1a1a;
+  --color-code-border: #333333;
+  --color-code-title: #ffffff;
+  --color-code-keyword: #ff79c6;
+  --color-code-variable: #50fa7b;
+  --color-code-property: #8be9fd;
+  --color-code-string: #f1fa8c;
+  --color-code-punctuation: #f8f8f2;
+  
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  --font-family-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.5rem;
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-glow: 0 0 20px var(--color-accent-glow);
+  
+  --border-radius-sm: 0.375rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 0.75rem;
+  --border-radius-full: 50%;
+  
+  --transition-fast: 0.15s ease-out;
+  --transition-normal: 0.3s ease-out;
+}
+
+.animate-fadeIn-hidden {
+  opacity: 0;
+}
+
+.animate-slideUp-hidden {
+  opacity: 0;
+  transform: translateY(60px);
+}
+
+.animate-slideDown-hidden {
+  opacity: 0;
+  transform: translateY(-60px);
+}
+
+.animate-slideLeft-hidden {
+  opacity: 0;
+  transform: translateX(60px);
+}
+
+.animate-slideRight-hidden {
+  opacity: 0;
+  transform: translateX(-60px);
+}
+
+.animate-scaleIn-hidden {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.animate-rotateIn-hidden {
+  opacity: 0;
+  transform: rotate(-10deg) scale(0.9);
+}
+
+.animate-fadeIn {
+  opacity: 1;
+  transition: opacity 0.8s ease-out;
+}
+
+.animate-slideUp {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.8s ease-out;
+}
+
+.animate-slideDown {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.8s ease-out;
+}
+
+.animate-slideLeft {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.8s ease-out;
+}
+
+.animate-slideRight {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.8s ease-out;
+}
+
+.animate-scaleIn {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.animate-rotateIn {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.animate-stagger > * {
+  transition-delay: 0s;
+}
+
+.animate-stagger > *:nth-child(1) { transition-delay: 0.1s; }
+.animate-stagger > *:nth-child(2) { transition-delay: 0.2s; }
+.animate-stagger > *:nth-child(3) { transition-delay: 0.3s; }
+.animate-stagger > *:nth-child(4) { transition-delay: 0.4s; }
+.animate-stagger > *:nth-child(5) { transition-delay: 0.5s; }
+.animate-stagger > *:nth-child(6) { transition-delay: 0.6s; }
+
+.animate-fadeIn:hover,
+.animate-slideUp:hover,
+.animate-slideDown:hover,
+.animate-slideLeft:hover,
+.animate-slideRight:hover {
+  transform: translateY(-4px);
+}
+
+.animate-scaleIn:hover {
+  transform: scale(1.02);
+}
+
+.animate-rotateIn:hover {
+  transform: rotate(1deg) scale(1.02);
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px var(--color-accent-primary);
+  }
+  50% {
+    box-shadow: 0 0 20px var(--color-accent-primary), 0 0 30px var(--color-accent-primary);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fadeIn,
+  .animate-slideUp,
+  .animate-slideDown,
+  .animate-slideLeft,
+  .animate-slideRight,
+  .animate-scaleIn,
+  .animate-rotateIn {
+    transition: opacity 0.3s ease-out;
+    transform: none !important;
+  }
+  
+  .animate-stagger > * {
+    transition-delay: 0s !important;
+  }
+  
+  .animate-pulse-glow {
+    animation: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-text-primary);
+}
+
+h1 { font-size: var(--font-size-4xl); }
+h2 { font-size: var(--font-size-3xl); }
+h3 { font-size: var(--font-size-2xl); }
+h4 { font-size: var(--font-size-xl); }
+h5 { font-size: var(--font-size-lg); }
+h6 { font-size: var(--font-size-base); }
+
+p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+a {
+  color: var(--color-accent-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-accent-secondary);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all var(--transition-fast);
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background-color: var(--color-accent-primary);
+  color: var(--color-bg-primary);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: var(--border-radius-sm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-hover);
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.section-title {
+  font-size: var(--font-size-3xl);
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+  position: relative;
+  color: var(--color-text-primary);
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-accent-primary), var(--color-accent-secondary));
+  border-radius: 1px;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    scroll-padding-top: 70px;
+  }
+  
+  .section-container {
+    padding: 0 var(--spacing-md);
+  }
+  
+  .section-title {
+    font-size: var(--font-size-2xl);
+  }
+  
+  h1 { font-size: var(--font-size-3xl); }
+  h2 { font-size: var(--font-size-2xl); }
+}
+
+@media (max-width: 480px) {
+  html {
+    scroll-padding-top: 65px;
+  }
+}

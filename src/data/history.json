@@ -1,0 +1,63 @@
+{
+  "timelineData": [
+    {
+      "year": "2025-current",
+      "title": "Product Engineer",
+      "company": "Intercom",
+      "description": [
+        "Contributed as a full-stack engineer on the Messenger team, enhancing and maintaining Intercom's customer-facing chat product",
+        "Implemented accessibility improvements independently, helping ensure compliance and usability for high-value customers saving deal worth $500K ARR",
+        "Contributed to the development of Messenger Dark Mode on web, focusing very deeply on design ensuring every aspect is perfect",
+        "Triaged and responded to on-call alerts and issues, coordinating with multiple teams, debugging customer-facing problems, and investigating alarms to maintain system reliability",
+        "Proactively prioritized and resolved high-impact issues, focusing on customers with large ARR or widespread product usage, fixed issues totaling `X` million ARR"
+      ],
+      "type": "work"
+    },
+    {
+      "year": "2023",
+      "title": "Software Engineer Intern",
+      "company": "Irish Life",
+      "description": [
+        "Performed weekly data fixes using SQL Server to maintain data integrity and accuracy",
+        "Identified and debugged critical issues in SSIS applications and Powershell scripts",
+        "Collaborated with Agile teams to deliver process improvements within tight deadlines",
+        "Programmed and implemented automation processes using SSIS, Excel, PowerShell, and SQL Server to optimize workflows",
+        "Verified system accuracy and compliance with data validation protocols using Excel and SQL"
+      ],
+      "type": "work"
+    },
+    {
+      "year": "2020-2024",
+      "title": "Bachelor of Computer Science",
+      "company": "Dublin City University",
+      "description": [
+        "Graduated with First Class Honours",
+        "Specialized in software engineering",
+        "Completed comprehensive coursework in algorithms, data structures, and software development"
+      ],
+      "type": "education"
+    },
+    {
+      "year": "2022-2023",
+      "title": "Security Guard",
+      "company": "Integrity Security",
+      "description": [
+        "Worked as a security guard at various locations throughout Dublin",
+        "Documented activities and communications",
+        "Maintained security protocols and procedures"
+      ],
+      "type": "work"
+    },
+    {
+      "year": "2015-2020",
+      "title": "Leaving Certificate",
+      "company": "Ardgillan Community College",
+      "description": [
+        "Graduated with 521 points",
+        "Strong performance in DCG, Engineering, Maths, Physics, and Applied Maths",
+        "Developed strong analytical and problem-solving skills"
+      ],
+      "type": "education"
+    }
+  ]
+}

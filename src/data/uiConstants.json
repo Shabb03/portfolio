@@ -1,0 +1,25 @@
+{
+  "UI_TEXT": {
+    "LOGO": "<Portfolio />",
+    "VIEW_PROJECTS": "View Projects",
+    "MY_JOURNEY": "My Journey", 
+    "HELLO_TEXT": "Hello, I'm",
+    "FOOTER_TITLE": "Get In Touch",
+    "FOOTER_DESCRIPTION": "Passionate about crafting exceptional digital experiences. Building digital products that feel simple, human, and purposeful — one iteration at a time.",
+    "FOOTER_COPYRIGHT": "Crafted with passion and code.",
+    "OTHER_PROJECTS_TITLE": "Other Projects",
+    "CODE_FILENAME": "developer.js",
+    "DEFAULT_ROLE": "Product Engineer",
+    "TOGGLE_MOBILE_MENU": "Toggle mobile menu",
+    "BACK_TO_TOP": "Back to top",
+    "VIEW_PROJECT": "View"
+  },
+  "ANIMATION_DELAYS": {
+    "TIMELINE_STAGGER": 0.2,
+    "GRID_STAGGER": 0.1
+  },
+  "THEME": {
+    "INTERSECTION_THRESHOLD": 0.3,
+    "SCROLL_ANIMATION_ROOT_MARGIN": "0px 0px -100px 0px"
+  }
+}

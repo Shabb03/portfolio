@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Votegrity",
+    "description": "A blockchain voting system for elections.",
+    "technologies": [
+      "Vue",
+      "Node.js",
+      "MySQL",
+      "Docker",
+      "AWS",
+      "Blockchain",
+      "Solidity",
+      "EVM",
+      "Web3.js"
+    ],
+    "codeUrl": "https://github.com/Shabb03/Votegrity",
+    "featured": true
+  },
+  {
+    "title": "CyberLink",
+    "description": "A cyberpunk themed social media application",
+    "technologies": ["React Native", "C#", "SQL Server"],
+    "codeUrl": "https://github.com/Shabb03/CyberLink",
+    "featured": true
+  },
+  {
+    "title": "Student Project Management System",
+    "description": "A system for professors and students to manage projects and submissions.",
+    "technologies": ["Node.js", "Django", "SQLite", "BulmaCSS"],
+    "codeUrl": "https://github.com/Shabb03/Student-Project-Management-System",
+    "featured": false
+  },
+  {
+    "title": "Predictive Decision Tree",
+    "description": "A decision tree for predicting the outcome given a large dataset",
+    "technologies": ["Python"],
+    "codeUrl": "https://github.com/Shabb03/Decision-Tree",
+    "featured": false
+  },
+  {
+    "title": "Sudoku Solver",
+    "description": "A sudoku solver that uses a backtracking algorithm to solve the puzzle.",
+    "technologies": ["JavaScript"],
+    "codeUrl": "https://github.com/Shabb03/Sudoku-Solver",
+    "featured": false
+  }
+]
