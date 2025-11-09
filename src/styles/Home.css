@@ -22,6 +22,7 @@
 
 .home-container {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: var(--spacing-3xl) var(--spacing-lg);
   display: grid;
@@ -30,6 +31,8 @@
   align-items: center;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .hero-content {
