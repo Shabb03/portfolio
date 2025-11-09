@@ -63,14 +63,11 @@ const CustomCursor: React.FC = () => {
         el.removeEventListener("mouseleave", handleHoverEnd);
       });
     };
-  }, []);
+  }, [isMobile]);
 
-  useEffect(() => {
-    const isMobile = "ontouchstart" in window || navigator.maxTouchPoints > 0;
-    if (isMobile) {
-      setIsVisible(false);
-    }
-  }, []);
+  if (isMobile) {
+    return null;
+  }
 
   return (
     <>
