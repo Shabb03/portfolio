@@ -13,8 +13,23 @@ const CustomCursor: React.FC = () => {
   });
   const [isVisible, setIsVisible] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
+  const [isMobile] = useState(() => {
+    return "ontouchstart" in window || navigator.maxTouchPoints > 0;
+  });
 
   useEffect(() => {
+    if (!isMobile) {
+      document.body.classList.add("custom-cursor-active");
+    }
+
+    return () => {
+      document.body.classList.remove("custom-cursor-active");
+    };
+  }, [isMobile]);
+
+  useEffect(() => {
+    if (isMobile) return;
+    
     const updateCursorPosition = (e: MouseEvent) => {
       setCursorPosition({ x: e.clientX, y: e.clientY });
       setIsVisible(true);
