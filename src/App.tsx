@@ -9,7 +9,8 @@ import Projects from "./components/Projects";
 import Hobbies from "./components/Hobbies";
 import Footer from "./components/Footer";
 import { CustomCursor, ScrollProgress } from "./components/ui";
-import { initializeConsoleEasterEggs, initializeIntercom } from "./utils";
+// import { initializeConsoleEasterEggs, initializeIntercom } from "./utils";
+import { initializeConsoleEasterEggs } from "./utils";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -20,7 +21,7 @@ const App: React.FC = () => {
     }
 
     initializeConsoleEasterEggs();
-    initializeIntercom();
+    // initializeIntercom();
 
     return () => {
       document.body.classList.remove("custom-cursor-active");
